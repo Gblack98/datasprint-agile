@@ -3,7 +3,7 @@
 ```
 dashboard/
   index.html
-  css/style.css      couleurs en haut du fichier, polices dans css/fonts/
+  css/style.css      couleurs en haut du fichier (indigo, safran, rose), polices dans css/fonts/
   js/app.js          lecture du CSV, calculs, filtres, graphiques
   js/vendor/         ECharts et PapaParse
   img/
@@ -32,6 +32,11 @@ Si la page est ouverte par double-clic, elle propose de choisir le fichier `vent
 - Un bouton Tableau sur chaque graphique donne les mêmes valeurs en tableau.
 
 On peut ouvrir une vue précise avec l'adresse, par exemple `#s=3&c=Mode&k=Web` (semaine 3, catégorie Mode, canal Web).
+
+## Affichage
+
+- Sur un écran d'ordinateur (1180 px de large ou plus), tout le tableau de bord tient dans la fenêtre : une seule capture suffit. La taille du texte suit la fenêtre, de 1280 x 720 à 2560 x 1440.
+- Sur tablette, les blocs passent sur deux colonnes. Sur téléphone, sur une seule.
 
 ## Changer les données
 
