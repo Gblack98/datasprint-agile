@@ -1,0 +1,273 @@
+date_commande,produit,categorie,quantite,prix_unitaire,canal,zone
+2026-09-07,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-07,Bougie parfumée,Maison,3,4000,Boutique,Dakar
+2026-09-07,Savon noir,Beauté,3,2500,Boutique,Dakar
+2026-09-07,T-shirt coton,Mode,1,6500,Boutique,Thiès
+2026-09-07,Théière émaillée,Maison,2,7500,Boutique,Dakar
+2026-09-07,Batterie externe,Électronique,3,12500,Web,Saint-Louis
+2026-09-07,Café Touba,Alimentation,2,3000,Boutique,Dakar
+2026-09-07,Casquette,Mode,1,4500,Boutique,Dakar
+2026-09-07,Miel local,Alimentation,2,5500,Boutique,Dakar
+2026-09-07,Huile de baobab,Beauté,1,7000,Boutique,Dakar
+2026-09-08,Bougie parfumée,Maison,1,4000,Boutique,Dakar
+2026-09-08,Savon noir,Beauté,2,2500,Boutique,Saint-Louis
+2026-09-08,T-shirt coton,Mode,4,6500,Boutique,Dakar
+2026-09-08,Lampe LED,Maison,1,11000,Web,Dakar
+2026-09-08,Chargeur rapide,Électronique,2,8500,Boutique,Dakar
+2026-09-08,Beurre de karité,Beauté,2,3500,Boutique,Dakar
+2026-09-08,Miel local,Alimentation,2,5500,Boutique,Dakar
+2026-09-08,Bissap séché,Alimentation,2,2000,Boutique,Dakar
+2026-09-08,Beurre de karité,Beauté,3,3500,Boutique,Dakar
+2026-09-09,Théière émaillée,Maison,1,7500,Boutique,Dakar
+2026-09-09,Beurre de karité,Beauté,2,3500,Boutique,Dakar
+2026-09-09,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-09,Lampe LED,Maison,2,11000,Boutique,Dakar
+2026-09-10,Bissap séché,Alimentation,1,2000,Boutique,Saint-Louis
+2026-09-10,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-10,Théière émaillée,Maison,5,7500,Boutique,Thiès
+2026-09-10,Set de verres,Maison,1,12000,Web,Thiès
+2026-09-10,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-10,Casque Bluetooth,Électronique,1,15000,Web,Saint-Louis
+2026-09-10,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-10,Savon noir,Beauté,2,2500,Boutique,Dakar
+2026-09-10,Câble USB-C,Électronique,2,3500,Web,Saint-Louis
+2026-09-11,Savon noir,Beauté,1,2500,Web,Thiès
+2026-09-11,Thé à la menthe,Alimentation,2,2500,Boutique,Dakar
+2026-09-11,Beurre de karité,Beauté,3,3500,Boutique,Saint-Louis
+2026-09-11,Sandales en cuir,Mode,2,14000,Boutique,Dakar
+2026-09-11,Batterie externe,Électronique,1,12500,Web,Saint-Louis
+2026-09-11,Chargeur rapide,Électronique,1,8500,Web,Saint-Louis
+2026-09-11,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar
+2026-09-11,Casquette,Mode,4,4500,Web,Thiès
+2026-09-11,Café Touba,Alimentation,2,3000,Web,Dakar
+2026-09-11,Casquette,Mode,2,4500,Boutique,Dakar
+2026-09-11,Foulard,Mode,4,5500,Web,Dakar
+2026-09-11,Coussin wax,Maison,2,6000,Boutique,Thiès
+2026-09-12,Batterie externe,Électronique,2,12500,Boutique,Dakar
+2026-09-12,Coussin wax,Maison,2,6000,Boutique,Saint-Louis
+2026-09-12,Câble USB-C,Électronique,1,3500,Boutique,Dakar
+2026-09-12,Foulard,Mode,1,5500,Web,Dakar
+2026-09-12,T-shirt coton,Mode,3,6500,Boutique,Dakar
+2026-09-12,Set de verres,Maison,1,12000,Web,Dakar
+2026-09-12,Café Touba,Alimentation,3,3000,Boutique,Thiès
+2026-09-12,T-shirt coton,Mode,4,6500,Boutique,Dakar
+2026-09-12,Foulard,Mode,3,5500,Boutique,Dakar
+2026-09-12,Thé à la menthe,Alimentation,1,2500,Boutique,Dakar
+2026-09-12,Bougie parfumée,Maison,1,4000,Boutique,Thiès
+2026-09-12,Coussin wax,Maison,1,6000,Boutique,Dakar
+2026-09-12,T-shirt coton,Mode,1,6500,Boutique,Dakar
+2026-09-13,Huile de baobab,Beauté,2,7000,Boutique,Dakar
+2026-09-13,Beurre de karité,Beauté,1,3500,Boutique,Thiès
+2026-09-13,Sandales en cuir,Mode,1,14000,Web,Dakar
+2026-09-13,Foulard,Mode,3,5500,Boutique,Dakar
+2026-09-13,Casque Bluetooth,Électronique,1,15000,Web,Dakar
+2026-09-13,Huile de baobab,Beauté,4,7000,Boutique,Dakar
+2026-09-14,Savon noir,Beauté,2,2500,Boutique,Dakar
+2026-09-14,Bissap séché,Alimentation,1,2000,Boutique,Dakar
+2026-09-14,Thé à la menthe,Alimentation,2,2500,Boutique,Thiès
+2026-09-14,Huile de baobab,Beauté,1,7000,Boutique,Saint-Louis
+2026-09-14,Casquette,Mode,1,4500,Boutique,Dakar
+2026-09-14,Huile de baobab,Beauté,4,7000,Boutique,Thiès
+2026-09-14,Câble USB-C,Électronique,1,3500,Boutique,Saint-Louis
+2026-09-14,Coussin wax,Maison,2,6000,Boutique,Thiès
+2026-09-15,Câble USB-C,Électronique,1,3500,Web,Thiès
+2026-09-15,Beurre de karité,Beauté,2,3500,Web,Dakar
+2026-09-15,Sac en wax,Mode,1,16500,Web,Dakar
+2026-09-15,Câble USB-C,Électronique,2,3500,Boutique,Saint-Louis
+2026-09-15,Huile de baobab,Beauté,1,7000,Boutique,Dakar
+2026-09-15,Casque Bluetooth,Électronique,1,15000,Web,Dakar
+2026-09-15,Sandales en cuir,Mode,1,14000,Boutique,Thiès
+2026-09-15,Coussin wax,Maison,5,6000,Boutique,Dakar
+2026-09-15,T-shirt coton,Mode,3,6500,Boutique,Dakar
+2026-09-15,Beurre de karité,Beauté,5,3500,Web,Thiès
+2026-09-16,Thé à la menthe,Alimentation,3,2500,Boutique,Saint-Louis
+2026-09-16,Bissap séché,Alimentation,5,2000,Boutique,Saint-Louis
+2026-09-16,T-shirt coton,Mode,1,6500,Boutique,Dakar
+2026-09-16,Casquette,Mode,2,4500,Boutique,Dakar
+2026-09-16,Parfum,Beauté,1,24000,Boutique,Dakar
+2026-09-16,Câble USB-C,Électronique,4,3500,Boutique,Thiès
+2026-09-16,Café Touba,Alimentation,3,3000,Boutique,Dakar
+2026-09-16,Enceinte portable,Électronique,1,22000,Web,Dakar
+2026-09-16,Savon noir,Beauté,1,2500,Boutique,Dakar
+2026-09-16,Café Touba,Alimentation,2,3000,Boutique,Saint-Louis
+2026-09-17,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-17,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-17,Chargeur rapide,Électronique,2,8500,Boutique,Dakar
+2026-09-17,Sandales en cuir,Mode,1,14000,Boutique,Saint-Louis
+2026-09-17,Batterie externe,Électronique,1,12500,Boutique,Dakar
+2026-09-18,Set de verres,Maison,2,12000,Boutique,Saint-Louis
+2026-09-18,Thé à la menthe,Alimentation,1,2500,Boutique,Dakar
+2026-09-18,Batterie externe,Électronique,1,12500,Boutique,Saint-Louis
+2026-09-18,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-18,Sac en wax,Mode,1,16500,Boutique,Dakar
+2026-09-18,Beurre de karité,Beauté,5,3500,Web,Thiès
+2026-09-18,Miel local,Alimentation,1,5500,Boutique,Dakar
+2026-09-18,Beurre de karité,Beauté,4,3500,Boutique,Dakar
+2026-09-18,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-18,Bougie parfumée,Maison,3,4000,Web,Dakar
+2026-09-18,Lampe LED,Maison,2,11000,Web,Dakar
+2026-09-18,Casquette,Mode,1,4500,Boutique,Saint-Louis
+2026-09-18,Savon noir,Beauté,1,2500,Boutique,Dakar
+2026-09-18,Café Touba,Alimentation,2,3000,Web,Dakar
+2026-09-19,Café Touba,Alimentation,1,3000,Boutique,Thiès
+2026-09-19,Beurre de karité,Beauté,1,3500,Web,Saint-Louis
+2026-09-19,Sandales en cuir,Mode,1,14000,Boutique,Dakar
+2026-09-19,Beurre de karité,Beauté,5,3500,Web,Thiès
+2026-09-19,Câble USB-C,Électronique,2,3500,Web,Dakar
+2026-09-19,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar
+2026-09-19,Huile de baobab,Beauté,4,7000,Boutique,Thiès
+2026-09-19,Thé à la menthe,Alimentation,2,2500,Boutique,Dakar
+2026-09-19,Casquette,Mode,4,4500,Web,Thiès
+2026-09-19,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar
+2026-09-19,Beurre de karité,Beauté,3,3500,Boutique,Dakar
+2026-09-19,Miel local,Alimentation,1,5500,Web,Dakar
+2026-09-19,Câble USB-C,Électronique,1,3500,Boutique,Dakar
+2026-09-19,Batterie externe,Électronique,1,12500,Web,Thiès
+2026-09-20,Chargeur rapide,Électronique,1,8500,Boutique,Dakar
+2026-09-20,Enceinte portable,Électronique,1,22000,Web,Thiès
+2026-09-20,Bougie parfumée,Maison,1,4000,Web,Thiès
+2026-09-21,Coussin wax,Maison,1,6000,Web,Dakar
+2026-09-21,Batterie externe,Électronique,3,12500,Boutique,Saint-Louis
+2026-09-21,Bissap séché,Alimentation,1,2000,Boutique,Dakar
+2026-09-21,Bougie parfumée,Maison,4,4000,Web,Saint-Louis
+2026-09-21,Chargeur rapide,Électronique,1,8500,Boutique,Thiès
+2026-09-21,T-shirt coton,Mode,1,6500,Boutique,Dakar
+2026-09-21,Café Touba,Alimentation,1,3000,Boutique,Dakar
+2026-09-21,Foulard,Mode,2,5500,Web,Thiès
+2026-09-22,Huile de baobab,Beauté,1,7000,Boutique,Dakar
+2026-09-22,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-22,Sandales en cuir,Mode,1,14000,Boutique,Saint-Louis
+2026-09-22,Miel local,Alimentation,1,5500,Web,Saint-Louis
+2026-09-22,Miel local,Alimentation,1,5500,Boutique,Dakar
+2026-09-23,Set de verres,Maison,1,12000,Web,Thiès
+2026-09-23,Lampe LED,Maison,1,11000,Boutique,Thiès
+2026-09-23,Lampe LED,Maison,2,11000,Boutique,Dakar
+2026-09-23,Thé à la menthe,Alimentation,2,2500,Boutique,Dakar
+2026-09-23,Câble USB-C,Électronique,5,3500,Boutique,Thiès
+2026-09-23,Câble USB-C,Électronique,2,3500,Boutique,Dakar
+2026-09-23,Beurre de karité,Beauté,3,3500,Web,Saint-Louis
+2026-09-24,Batterie externe,Électronique,1,12500,Web,Dakar
+2026-09-24,Théière émaillée,Maison,1,7500,Web,Dakar
+2026-09-24,Câble USB-C,Électronique,2,3500,Boutique,Dakar
+2026-09-24,Casque Bluetooth,Électronique,1,15000,Web,Thiès
+2026-09-24,Set de verres,Maison,1,12000,Boutique,Dakar
+2026-09-24,Huile de baobab,Beauté,1,7000,Web,Dakar
+2026-09-24,Bougie parfumée,Maison,3,4000,Boutique,Dakar
+2026-09-24,Savon noir,Beauté,1,2500,Web,Saint-Louis
+2026-09-25,Café Touba,Alimentation,1,3000,Web,Saint-Louis
+2026-09-25,T-shirt coton,Mode,5,6500,Web,Dakar
+2026-09-25,Foulard,Mode,2,5500,Boutique,Saint-Louis
+2026-09-25,Beurre de karité,Beauté,4,3500,Boutique,Dakar
+2026-09-25,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-25,Chargeur rapide,Électronique,1,8500,Boutique,Dakar
+2026-09-25,Câble USB-C,Électronique,1,3500,Boutique,Saint-Louis
+2026-09-25,Thé à la menthe,Alimentation,5,2500,Web,Thiès
+2026-09-25,Bissap séché,Alimentation,1,2000,Boutique,Dakar
+2026-09-25,Casque Bluetooth,Électronique,2,15000,Boutique,Thiès
+2026-09-25,Lampe LED,Maison,2,11000,Web,Thiès
+2026-09-25,Thé à la menthe,Alimentation,2,2500,Boutique,Dakar
+2026-09-26,Bissap séché,Alimentation,1,2000,Boutique,Dakar
+2026-09-26,Huile de baobab,Beauté,1,7000,Boutique,Thiès
+2026-09-26,Coussin wax,Maison,1,6000,Boutique,Dakar
+2026-09-26,Chargeur rapide,Électronique,1,8500,Boutique,Saint-Louis
+2026-09-26,Bougie parfumée,Maison,2,4000,Boutique,Dakar
+2026-09-26,Théière émaillée,Maison,1,7500,Boutique,Saint-Louis
+2026-09-26,Câble USB-C,Électronique,1,3500,Web,Thiès
+2026-09-26,T-shirt coton,Mode,3,6500,Boutique,Dakar
+2026-09-26,Bougie parfumée,Maison,5,4000,Web,Saint-Louis
+2026-09-26,Huile de baobab,Beauté,2,7000,Web,Dakar
+2026-09-26,Miel local,Alimentation,1,5500,Boutique,Dakar
+2026-09-26,Café Touba,Alimentation,2,3000,Boutique,Dakar
+2026-09-26,Théière émaillée,Maison,2,7500,Boutique,Dakar
+2026-09-26,Set de verres,Maison,3,12000,Web,Dakar
+2026-09-26,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar
+2026-09-26,Coussin wax,Maison,1,6000,Web,Saint-Louis
+2026-09-26,Casque Bluetooth,Électronique,1,15000,Boutique,Saint-Louis
+2026-09-26,Câble USB-C,Électronique,1,3500,Web,Dakar
+2026-09-26,Câble USB-C,Électronique,1,3500,Web,Dakar
+2026-09-27,Casque Bluetooth,Électronique,1,15000,Web,Saint-Louis
+2026-09-27,Coussin wax,Maison,1,6000,Boutique,Dakar
+2026-09-27,Bissap séché,Alimentation,3,2000,Web,Saint-Louis
+2026-09-27,Bougie parfumée,Maison,2,4000,Boutique,Dakar
+2026-09-27,Thé à la menthe,Alimentation,2,2500,Boutique,Thiès
+2026-09-27,Lampe LED,Maison,3,11000,Boutique,Saint-Louis
+2026-09-27,Thé à la menthe,Alimentation,5,2500,Boutique,Dakar
+2026-09-27,Enceinte portable,Électronique,1,22000,Boutique,Dakar
+2026-09-28,Beurre de karité,Beauté,4,3500,Web,Dakar
+2026-09-28,Huile de baobab,Beauté,2,7000,Boutique,Dakar
+2026-09-28,Coussin wax,Maison,1,6000,Boutique,Dakar
+2026-09-28,Coussin wax,Maison,1,6000,Boutique,Dakar
+2026-09-28,Sac en wax,Mode,1,16500,Web,Dakar
+2026-09-28,T-shirt coton,Mode,2,6500,Boutique,Dakar
+2026-09-28,Boubou brodé,Mode,1,35000,Boutique,Dakar
+2026-09-28,Casquette,Mode,1,4500,Boutique,Saint-Louis
+2026-09-28,Café Touba,Alimentation,3,3000,Boutique,Dakar
+2026-09-28,Huile de baobab,Beauté,1,7000,Boutique,Dakar
+2026-09-28,Montre connectée,Électronique,1,28000,Web,Saint-Louis
+2026-09-29,Bougie parfumée,Maison,1,4000,Boutique,Thiès
+2026-09-29,Bougie parfumée,Maison,1,4000,Boutique,Dakar
+2026-09-29,T-shirt coton,Mode,2,6500,Boutique,Dakar
+2026-09-29,Bougie parfumée,Maison,2,4000,Boutique,Saint-Louis
+2026-09-29,Casquette,Mode,2,4500,Boutique,Dakar
+2026-09-29,T-shirt coton,Mode,4,6500,Boutique,Dakar
+2026-09-29,Lampe LED,Maison,1,11000,Boutique,Dakar
+2026-09-29,Beurre de karité,Beauté,1,3500,Boutique,Dakar
+2026-09-29,Théière émaillée,Maison,1,7500,Boutique,Dakar
+2026-09-30,Casque Bluetooth,Électronique,1,15000,Boutique,Thiès
+2026-09-30,Théière émaillée,Maison,1,7500,Web,Dakar
+2026-09-30,Savon noir,Beauté,3,2500,Boutique,Dakar
+2026-09-30,Savon noir,Beauté,1,2500,Boutique,Dakar
+2026-09-30,Câble USB-C,Électronique,1,3500,Boutique,Dakar
+2026-09-30,Huile de baobab,Beauté,3,7000,Boutique,Dakar
+2026-09-30,Miel local,Alimentation,1,5500,Boutique,Dakar
+2026-09-30,Sac en wax,Mode,1,16500,Boutique,Dakar
+2026-09-30,Beurre de karité,Beauté,2,3500,Boutique,Saint-Louis
+2026-09-30,Huile de baobab,Beauté,4,7000,Boutique,Dakar
+2026-09-30,Lampe LED,Maison,1,11000,Web,Dakar
+2026-10-01,Bougie parfumée,Maison,1,4000,Boutique,Dakar
+2026-10-01,Chargeur rapide,Électronique,1,8500,Web,Thiès
+2026-10-01,Casquette,Mode,1,4500,Boutique,Saint-Louis
+2026-10-01,Beurre de karité,Beauté,3,3500,Boutique,Saint-Louis
+2026-10-01,Boubou brodé,Mode,2,35000,Boutique,Dakar
+2026-10-01,Café Touba,Alimentation,1,3000,Boutique,Dakar
+2026-10-01,Foulard,Mode,2,5500,Boutique,Saint-Louis
+2026-10-01,Café Touba,Alimentation,2,3000,Boutique,Dakar
+2026-10-01,Miel local,Alimentation,1,5500,Boutique,Dakar
+2026-10-01,Câble USB-C,Électronique,2,3500,Boutique,Thiès
+2026-10-02,Théière émaillée,Maison,1,7500,Web,Dakar
+2026-10-02,Enceinte portable,Électronique,1,22000,Web,Thiès
+2026-10-02,Beurre de karité,Beauté,2,3500,Boutique,Dakar
+2026-10-02,Sandales en cuir,Mode,1,14000,Boutique,Dakar
+2026-10-02,Casquette,Mode,2,4500,Web,Dakar
+2026-10-02,Montre connectée,Électronique,1,28000,Boutique,Dakar
+2026-10-02,Set de verres,Maison,1,12000,Boutique,Dakar
+2026-10-02,Câble USB-C,Électronique,3,3500,Boutique,Dakar
+2026-10-02,Thé à la menthe,Alimentation,1,2500,Boutique,Saint-Louis
+2026-10-02,Enceinte portable,Électronique,1,22000,Boutique,Saint-Louis
+2026-10-02,Théière émaillée,Maison,2,7500,Web,Saint-Louis
+2026-10-02,Thé à la menthe,Alimentation,1,2500,Boutique,Dakar
+2026-10-02,Huile de baobab,Beauté,1,7000,Boutique,Dakar
+2026-10-03,Bougie parfumée,Maison,1,4000,Boutique,Thiès
+2026-10-03,Parfum,Beauté,1,24000,Boutique,Thiès
+2026-10-03,Foulard,Mode,2,5500,Boutique,Dakar
+2026-10-03,Sandales en cuir,Mode,2,14000,Boutique,Dakar
+2026-10-03,Savon noir,Beauté,1,2500,Boutique,Dakar
+2026-10-03,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar
+2026-10-03,Savon noir,Beauté,1,2500,Boutique,Saint-Louis
+2026-10-03,Savon noir,Beauté,1,2500,Boutique,Dakar
+2026-10-03,Thé à la menthe,Alimentation,4,2500,Web,Dakar
+2026-10-03,Bissap séché,Alimentation,1,2000,Boutique,Dakar
+2026-10-03,Bissap séché,Alimentation,2,2000,Boutique,Dakar
+2026-10-03,Foulard,Mode,1,5500,Boutique,Dakar
+2026-10-03,Sac en wax,Mode,1,16500,Boutique,Dakar
+2026-10-03,Bougie parfumée,Maison,1,4000,Boutique,Thiès
+2026-10-03,Sac en wax,Mode,1,16500,Boutique,Dakar
+2026-10-03,Casquette,Mode,2,4500,Boutique,Thiès
+2026-10-04,Sandales en cuir,Mode,2,14000,Boutique,Dakar
+2026-10-04,Casquette,Mode,1,4500,Web,Saint-Louis
+2026-10-04,Huile de baobab,Beauté,1,7000,Web,Dakar
+2026-10-04,Câble USB-C,Électronique,4,3500,Boutique,Saint-Louis
+2026-10-04,Coussin wax,Maison,2,6000,Web,Thiès
+2026-10-04,Beurre de karité,Beauté,1,3500,Web,Dakar
+2026-10-04,Câble USB-C,Électronique,4,3500,Boutique,Thiès
+2026-10-04,Chargeur rapide,Électronique,2,8500,Boutique,Dakar
