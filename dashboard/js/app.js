@@ -5,6 +5,8 @@
   const css = getComputedStyle(document.documentElement);
   const T = (nom) => css.getPropertyValue('--' + nom).trim();
   const POLICE = '"Bricolage Grotesque", system-ui, sans-serif';
+  const rem = () => parseFloat(getComputedStyle(document.documentElement).fontSize);
+  const u = (n) => (n * rem()) / 16;
   const calme = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const JOUR_MS = 864e5;
@@ -100,7 +102,7 @@
   const anim = { animationDuration: calme ? 0 : 650, animationEasing: 'cubicOut', animationDurationUpdate: calme ? 0 : 450 };
   const infobulle = () => ({
     backgroundColor: T('encre'), borderWidth: 0, padding: [10, 13], confine: true,
-    textStyle: { color: '#f4efe4', fontFamily: POLICE, fontSize: 13 },
+    textStyle: { color: '#f4efe4', fontFamily: POLICE, fontSize: u(13) },
     extraCssText: 'border-radius:12px;box-shadow:0 12px 28px -8px rgba(0,0,0,.45);',
   });
   const ligneInfo = (couleur, valeur, nom) =>
@@ -110,7 +112,7 @@
     '<span style="color:#a9bbbd">' + esc(nom) + '</span></div>';
   const enTete = (texte) => '<div style="color:#a9bbbd;font-size:12px">' + esc(texte) + '</div>';
 
-  const texteAxe = { color: T('encre-3'), fontFamily: POLICE, fontSize: 12 };
+  const texteAxe = () => ({ color: T('encre-3'), fontFamily: POLICE, fontSize: u(12) });
 
   function tableau(id, entetes, rows, numeriques) {
     const el = $(id);
@@ -158,6 +160,8 @@
 
   function barresH(id, noms, valeurs, couleurs, etiquette, info, epaisseur = 18) {
     const max = Math.max(...valeurs, 1);
+    const h = $(id).clientHeight;
+    const ep = h > 30 ? Math.max(5, Math.min(u(epaisseur), h / (noms.length * 1.9))) : u(epaisseur);
     maj_option(id, {
       ...anim,
       grid: { left: 0, right: 8, top: 4, bottom: 4, containLabel: true },
@@ -165,18 +169,18 @@
       yAxis: {
         type: 'category', inverse: true, data: noms,
         axisLine: { show: false }, axisTick: { show: false },
-        axisLabel: { color: T('encre-2'), fontFamily: POLICE, fontSize: 13.5, width: 132, overflow: 'truncate', margin: 12 },
+        axisLabel: { color: T('encre-2'), fontFamily: POLICE, fontSize: u(13.5), width: u(132), overflow: 'truncate', margin: u(12) },
       },
       tooltip: { ...infobulle(), trigger: 'item', formatter: (p) => info(p.dataIndex) },
       series: [{
-        type: 'bar', barWidth: epaisseur,
+        type: 'bar', barWidth: ep,
         data: valeurs.map((v, i) => ({ value: v, itemStyle: { color: couleurs[i], borderRadius: [0, 4, 4, 0] } })),
         label: {
-          show: true, position: 'right', distance: 8,
+          show: true, position: 'right', distance: u(8),
           formatter: (p) => etiquette(p.dataIndex),
           rich: {
-            v: { color: T('encre'), fontFamily: POLICE, fontSize: 13, fontWeight: 650 },
-            p: { color: T('encre-3'), fontFamily: POLICE, fontSize: 12.5 },
+            v: { color: T('encre'), fontFamily: POLICE, fontSize: u(13), fontWeight: 650 },
+            p: { color: T('encre-3'), fontFamily: POLICE, fontSize: u(12.5) },
           },
         },
         emphasis: { focus: 'self' },
@@ -248,7 +252,7 @@
     }
     const court7 = jours.length <= 7;
     const etiq = (j) => (court7 ? fmtSemaine : fmtJour).format(date(j));
-    const jade = T('jade');
+    const jade = T('indigo');
     const max = Math.max(...serie);
 
     const series = [];
@@ -261,14 +265,14 @@
     }
     series.push({
       name: w.nom, type: 'line', data: serie, smooth: 0.28, z: 3,
-      symbol: 'circle', symbolSize: 9, showSymbol: false,
+      symbol: 'circle', symbolSize: u(9), showSymbol: false,
       lineStyle: { width: 2, color: jade },
       itemStyle: { color: jade, borderColor: T('carte'), borderWidth: 2 },
-      areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: 'rgba(8,133,106,0.16)' }, { offset: 1, color: 'rgba(8,133,106,0)' }] } },
+      areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: 'rgba(62,76,182,0.16)' }, { offset: 1, color: 'rgba(62,76,182,0)' }] } },
       markPoint: max > 0 ? {
-        data: [{ type: 'max' }], symbol: 'circle', symbolSize: 11, animation: false,
-        itemStyle: { color: jade, borderColor: T('carte'), borderWidth: 2 },
-        label: { show: true, position: 'top', distance: 6, formatter: (p) => court(p.value), color: T('encre'), fontFamily: POLICE, fontSize: 12.5, fontWeight: 650 },
+        data: [{ type: 'max' }], symbol: 'circle', symbolSize: u(11), animation: false,
+        itemStyle: { color: T('safran'), borderColor: T('carte'), borderWidth: 2 },
+        label: { show: true, position: 'top', distance: u(6), formatter: (p) => court(p.value), color: T('encre'), fontFamily: POLICE, fontSize: u(12.5), fontWeight: 650 },
       } : undefined,
     });
 
@@ -278,11 +282,11 @@
       xAxis: {
         type: 'category', data: jours.map(etiq), boundaryGap: false,
         axisTick: { show: false }, axisLine: { lineStyle: { color: T('trait') } },
-        axisLabel: { ...texteAxe, margin: 14, hideOverlap: true, interval: court7 ? 0 : (i) => i % 7 === 0 },
+        axisLabel: { ...texteAxe(), margin: u(14), hideOverlap: true, interval: court7 ? 0 : (i) => i % 7 === 0 },
       },
       yAxis: {
         type: 'value', min: 0, splitNumber: 4,
-        axisLabel: { ...texteAxe, formatter: (v) => court(v) },
+        axisLabel: { ...texteAxe(), formatter: (v) => court(v) },
         splitLine: { lineStyle: { color: T('trait'), width: 1, type: 'solid' } },
       },
       tooltip: {
@@ -326,23 +330,23 @@
       xAxis: {
         type: 'category', data: INIT_JOURS, axisTick: { show: false },
         axisLine: { lineStyle: { color: 'rgba(255,255,255,0.14)' } },
-        axisLabel: { color: T('bande-texte'), fontFamily: POLICE, fontSize: 12.5, margin: 12 },
+        axisLabel: { color: T('bande-texte'), fontFamily: POLICE, fontSize: u(12.5), margin: u(12) },
       },
       yAxis: {
         type: 'value', min: 0, splitNumber: 3,
-        axisLabel: { color: T('bande-texte'), fontFamily: POLICE, fontSize: 11.5, formatter: (v) => court(v) },
+        axisLabel: { color: T('bande-texte'), fontFamily: POLICE, fontSize: u(11.5), formatter: (v) => court(v) },
         splitLine: { lineStyle: { color: 'rgba(255,255,255,0.09)', width: 1, type: 'solid' } },
       },
       tooltip: {
         ...infobulle(), trigger: 'item',
-        formatter: (p) => enTete(maj(NOMS_JOURS[p.dataIndex])) + ligneInfo(T('ambre-clair'), fcfa(vals[p.dataIndex]), (nb.get(p.dataIndex) || 0) + ' commandes'),
+        formatter: (p) => enTete(maj(NOMS_JOURS[p.dataIndex])) + ligneInfo(T('safran-clair'), fcfa(vals[p.dataIndex]), (nb.get(p.dataIndex) || 0) + ' commandes'),
       },
       series: [{
-        type: 'bar', barWidth: 20,
+        type: 'bar', barWidth: $('g-jours').clientWidth > 40 ? Math.max(6, Math.min(u(20), $('g-jours').clientWidth / (7 * 1.9))) : u(20),
         data: vals.map((v, i) => ({
           value: v,
-          itemStyle: { color: v === max && max > 0 ? T('ambre-clair') : T('ardoise'), borderRadius: [4, 4, 0, 0] },
-          label: { show: v === max && max > 0, position: 'top', distance: 7, formatter: () => court(v), color: T('bande-clair'), fontFamily: POLICE, fontSize: 12.5, fontWeight: 650 },
+          itemStyle: { color: v === max && max > 0 ? T('safran-clair') : T('ardoise'), borderRadius: [4, 4, 0, 0] },
+          label: { show: v === max && max > 0, position: 'top', distance: u(7), formatter: () => court(v), color: T('bande-clair'), fontFamily: POLICE, fontSize: u(12.5), fontWeight: 650 },
         })),
         emphasis: { focus: 'self' }, blur: { itemStyle: { opacity: 0.55 } },
       }],
@@ -361,9 +365,9 @@
     const choisie = etat.categorie !== 'toutes';
     $('s-categories').textContent = choisie ? 'Catégorie choisie en vert, les autres en gris' : "Part du chiffre d'affaires";
     barresH('g-categories', tri.map((e) => e[0]), tri.map((e) => e[1]),
-      tri.map((e) => (!choisie || e[0] === etat.categorie ? T('jade') : T('contexte'))),
+      tri.map((e) => (!choisie || e[0] === etat.categorie ? T('indigo') : T('contexte'))),
       (i) => '{v|' + court(tri[i][1]) + '}{p|  ' + part(tri[i][1], total) + ' %}',
-      (i) => enTete(tri[i][0]) + ligneInfo(T('jade'), fcfa(tri[i][1]), part(tri[i][1], total) + ' % du total'));
+      (i) => enTete(tri[i][0]) + ligneInfo(T('indigo'), fcfa(tri[i][1]), part(tri[i][1], total) + ' % du total'));
     tableau('t-categories', ['Catégorie', 'CA (FCFA)', 'Part'],
       tri.map((e) => [e[0], entier(e[1]), part(e[1], total) + ' %']), [1, 2]);
   }
@@ -373,20 +377,20 @@
     const qte = grouper(rows, (r) => r.produit, (r) => r.q);
     const cat = new Map(rows.map((r) => [r.produit, r.categorie]));
     const top = trier(ca).slice(0, 5);
-    barresH('g-top', top.map((e) => e[0]), top.map((e) => e[1]), top.map(() => T('jade')),
+    barresH('g-top', top.map((e) => e[0]), top.map((e) => e[1]), top.map(() => T('indigo')),
       (i) => '{v|' + court(top[i][1]) + '}{p|  ' + qte.get(top[i][0]) + ' u.}',
-      (i) => enTete(top[i][0] + ' · ' + cat.get(top[i][0])) + ligneInfo(T('jade'), fcfa(top[i][1]), qte.get(top[i][0]) + ' unités vendues'));
+      (i) => enTete(top[i][0] + ' · ' + cat.get(top[i][0])) + ligneInfo(T('indigo'), fcfa(top[i][1]), qte.get(top[i][0]) + ' unités vendues'));
     tableau('t-top', ['Rang', 'Produit', 'CA (FCFA)', 'Unités'],
       top.map((e, i) => [String(i + 1), e[0], entier(e[1]), String(qte.get(e[0]))]), [2, 3]);
   }
 
-  const COULEURS_CANAL = () => ({ Boutique: T('jade'), Web: T('ambre') });
+  const COULEURS_CANAL = () => ({ Boutique: T('indigo'), Web: T('safran') });
 
   function dessinerCanalZone(rows) {
     const total = somme(rows, (r) => r.ca);
     const cCanal = COULEURS_CANAL();
     const canaux = trier(grouper(rows, (r) => r.canal)).sort((a, b) => (a[0] === 'Boutique' ? -1 : b[0] === 'Boutique' ? 1 : 0));
-    const couleur = (c) => cCanal[c] || T('prune');
+    const couleur = (c) => cCanal[c] || T('rose');
 
     maj_option('g-canal', {
       ...anim,
@@ -398,7 +402,7 @@
         formatter: (p) => enTete(p.seriesName) + ligneInfo(couleur(p.seriesName), fcfa(p.value), part(p.value, total) + ' % du total'),
       },
       series: canaux.map(([nom, v], i) => ({
-        name: nom, type: 'bar', stack: 'canal', barWidth: 16, data: [v],
+        name: nom, type: 'bar', stack: 'canal', barWidth: u(16), data: [v],
         itemStyle: {
           color: couleur(nom), borderColor: T('carte'), borderWidth: 2,
           borderRadius: canaux.length === 1 ? 4 : i === 0 ? [4, 0, 0, 4] : i === canaux.length - 1 ? [0, 4, 4, 0] : 0,
@@ -409,9 +413,9 @@
     legende('leg-canal', canaux.map(([nom, v]) => ({ nom, couleur: couleur(nom), fort: part(v, total) + ' %', detail: court(v) })));
 
     const zones = trier(grouper(rows, (r) => r.zone));
-    barresH('g-zone', zones.map((e) => e[0]), zones.map((e) => e[1]), zones.map(() => T('jade')),
+    barresH('g-zone', zones.map((e) => e[0]), zones.map((e) => e[1]), zones.map(() => T('indigo')),
       (i) => '{v|' + court(zones[i][1]) + '}{p|  ' + part(zones[i][1], total) + ' %}',
-      (i) => enTete('Zone · ' + zones[i][0]) + ligneInfo(T('jade'), fcfa(zones[i][1]), part(zones[i][1], total) + ' % du total'), 14);
+      (i) => enTete('Zone · ' + zones[i][0]) + ligneInfo(T('indigo'), fcfa(zones[i][1]), part(zones[i][1], total) + ' % du total'), 14);
 
     tableau('t-canal', ['Type', 'Nom', 'CA (FCFA)', 'Part'], [
       ...canaux.map(([n, v]) => ['Canal', n, entier(v), part(v, total) + ' %']),
@@ -566,6 +570,15 @@
       carte.querySelector('.vue-tableau').hidden = actif;
       if (actif) Object.values(graphes).forEach((g) => g.resize());
     });
+  });
+
+  let remAvant = rem();
+  let minuteur;
+  window.addEventListener('resize', () => {
+    clearTimeout(minuteur);
+    minuteur = setTimeout(() => {
+      if (lignes.length && Math.abs(rem() - remAvant) > 0.3) { remAvant = rem(); rendre(); }
+    }, 150);
   });
 
   // Chargement --------------------------------------------------------------
