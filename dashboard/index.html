@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maison Baobab · Ventes</title>
   <meta name="description" content="Tableau de bord de suivi des ventes d'une petite boutique.">
+  <meta name="theme-color" content="#151a3a">
   <link rel="preload" href="css/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +16,7 @@
     <div class="bande-haut">
       <div class="marque">
         <span class="marque-logo" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor"><circle cx="8.500" cy="11.500" r="5"/><circle cx="16" cy="8.500" r="6.500"/><circle cx="23.500" cy="11.500" r="5"/><path d="M13.200 13h5.600c-.5 4.200.6 8.400 3.700 14.500h-13c3.100-6.100 4.200-10.300 3.700-14.500Z"/></svg>
+          <svg viewBox="0 0 32 32" fill="currentColor"><circle cx="8.5" cy="11.5" r="5"/><circle cx="16" cy="8.5" r="6.5"/><circle cx="23.5" cy="11.5" r="5"/><path d="M13.2 13h5.6c-.5 4.2.6 8.4 3.7 14.5h-13c3.1-6.1 4.2-10.3 3.7-14.5Z"/></svg>
         </span>
         <div>
           <p class="marque-nom">Maison Baobab</p>
@@ -39,94 +40,91 @@
       </div>
     </div>
 
-    <div class="bande-bas">
-      <section class="kpis" aria-label="Indicateurs clés">
-        <article class="kpi kpi--brume">
-          <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.500"/><circle cx="12" cy="12" r="2.600"/><path d="M6.500 9.500v.01M17.500 14.500v.01"/></svg></span><h2>Chiffre d'affaires</h2></header>
-          <p class="kpi-valeur"><span id="k-ca">0</span><small id="k-ca-u">FCFA</small></p>
-          <p class="delta" id="d-ca"></p>
-        </article>
-        <article class="kpi kpi--sable">
-          <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9.500 8h5M9.500 12h5"/></svg></span><h2>Commandes</h2></header>
-          <p class="kpi-valeur"><span id="k-n">0</span></p>
-          <p class="delta" id="d-n"></p>
-        </article>
-        <article class="kpi kpi--argile">
-          <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="m12 3 8 4.500v9L12 21l-8-4.500v-9L12 3Z"/><path d="m4 7.500 8 4.500 8-4.500M12 12v9"/></svg></span><h2>Quantité vendue</h2></header>
-          <p class="kpi-valeur"><span id="k-q">0</span><small>unités</small></p>
-          <p class="delta" id="d-q"></p>
-        </article>
-        <article class="kpi kpi--lilas">
-          <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.200 11.200a1.500 1.500 0 0 1-1.500 1.300H7.700a1.500 1.500 0 0 1-1.500-1.300L5 8Z"/><path d="M9 8V6.500a3 3 0 0 1 6 0V8"/></svg></span><h2>Panier moyen</h2></header>
-          <p class="kpi-valeur"><span id="k-p">0</span><small>FCFA</small></p>
-          <p class="delta" id="d-p"></p>
-        </article>
-      </section>
-
-      <section class="jours" aria-labelledby="t-jours">
-        <header class="carte-tete carte-tete--sombre">
-          <div>
-            <h2 id="t-jours">Ventes par jour de la semaine</h2>
-            <p class="sous" id="s-jours">Chiffre d'affaires, en FCFA</p>
-          </div>
-          <button class="btn-tableau" type="button" aria-pressed="false" data-cible="c-jours">Tableau</button>
-        </header>
-        <div class="vue vue-graphique" id="g-jours" role="img" aria-label="Chiffre d'affaires par jour de la semaine"></div>
-        <div class="vue vue-tableau" id="t-tab-jours" hidden></div>
-      </section>
-    </div>
+    <section class="kpis" aria-label="Indicateurs clés">
+      <article class="kpi kpi--lavande">
+        <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 9.5v.01M17.5 14.5v.01"/></svg></span><h2>Chiffre d'affaires</h2></header>
+        <p class="kpi-valeur"><span id="k-ca">0</span><small id="k-ca-u">FCFA</small></p>
+        <p class="delta" id="d-ca"></p>
+      </article>
+      <article class="kpi kpi--miel">
+        <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9.5 8h5M9.5 12h5"/></svg></span><h2>Commandes</h2></header>
+        <p class="kpi-valeur"><span id="k-n">0</span></p>
+        <p class="delta" id="d-n"></p>
+      </article>
+      <article class="kpi kpi--rose">
+        <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/></svg></span><h2>Quantité vendue</h2></header>
+        <p class="kpi-valeur"><span id="k-q">0</span><small>unités</small></p>
+        <p class="delta" id="d-q"></p>
+      </article>
+      <article class="kpi kpi--menthe">
+        <header><span class="kpi-icone"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg></span><h2>Panier moyen</h2></header>
+        <p class="kpi-valeur"><span id="k-p">0</span><small>FCFA</small></p>
+        <p class="delta" id="d-p"></p>
+      </article>
+    </section>
   </header>
 
-  <p class="message-vide" id="message-vide" hidden>Aucune vente ne correspond à ces filtres. Élargissez la période ou la catégorie.</p>
-
   <section class="grille" id="grille">
+    <p class="message-vide" id="message-vide" hidden>Aucune vente pour ces filtres. Élargissez la période ou la catégorie.</p>
 
-    <article class="carte carte--evolution" id="c-evolution">
+    <article class="carte carte--evolution">
       <header class="carte-tete">
         <div>
           <h2>Évolution des ventes</h2>
           <p class="sous">Chiffre d'affaires par jour, en FCFA</p>
         </div>
         <ul class="legende" id="leg-evolution" aria-label="Légende"></ul>
-        <button class="btn-tableau" type="button" aria-pressed="false" data-cible="c-evolution">Tableau</button>
+        <button class="btn-tableau" type="button" aria-pressed="false">Tableau</button>
       </header>
       <div class="vue vue-graphique" id="g-evolution" role="img" aria-label="Évolution du chiffre d'affaires par date"></div>
       <div class="vue vue-tableau" id="t-evolution" hidden></div>
     </article>
 
-    <article class="carte carte--categories" id="c-categories">
+    <article class="carte carte--jours">
+      <header class="carte-tete">
+        <div>
+          <h2>Ventes par jour</h2>
+          <p class="sous" id="s-jours">Chiffre d'affaires, en FCFA</p>
+        </div>
+        <button class="btn-tableau" type="button" aria-pressed="false">Tableau</button>
+      </header>
+      <div class="vue vue-graphique" id="g-jours" role="img" aria-label="Chiffre d'affaires par jour de la semaine"></div>
+      <div class="vue vue-tableau" id="t-tab-jours" hidden></div>
+    </article>
+
+    <article class="carte carte--categories">
       <header class="carte-tete">
         <div>
           <h2>Ventes par catégorie</h2>
           <p class="sous" id="s-categories">Part du chiffre d'affaires</p>
         </div>
-        <button class="btn-tableau" type="button" aria-pressed="false" data-cible="c-categories">Tableau</button>
+        <button class="btn-tableau" type="button" aria-pressed="false">Tableau</button>
       </header>
       <div class="vue vue-graphique" id="g-categories" role="img" aria-label="Chiffre d'affaires par catégorie"></div>
       <div class="vue vue-tableau" id="t-categories" hidden></div>
     </article>
 
-    <article class="carte carte--top" id="c-top">
+    <article class="carte carte--top">
       <header class="carte-tete">
         <div>
           <h2>Top 5 des produits</h2>
           <p class="sous">Classés par chiffre d'affaires</p>
         </div>
-        <button class="btn-tableau" type="button" aria-pressed="false" data-cible="c-top">Tableau</button>
+        <button class="btn-tableau" type="button" aria-pressed="false">Tableau</button>
       </header>
       <div class="vue vue-graphique" id="g-top" role="img" aria-label="Cinq produits au plus fort chiffre d'affaires"></div>
       <div class="vue vue-tableau" id="t-top" hidden></div>
     </article>
 
-    <article class="carte carte--canal" id="c-canal">
+    <article class="carte carte--canal">
       <header class="carte-tete">
         <div>
           <h2>Canal et zone</h2>
           <p class="sous">Où et comment la boutique vend</p>
         </div>
-        <button class="btn-tableau" type="button" aria-pressed="false" data-cible="c-canal">Tableau</button>
+        <button class="btn-tableau" type="button" aria-pressed="false">Tableau</button>
       </header>
-      <div class="vue vue-graphique">
+      <div class="vue vue-graphique vue-canal">
         <div id="g-canal" class="g-canal" role="img" aria-label="Répartition du chiffre d'affaires par canal"></div>
         <ul class="legende legende--canal" id="leg-canal" aria-label="Canaux"></ul>
         <div id="g-zone" class="g-zone" role="img" aria-label="Chiffre d'affaires par zone"></div>
@@ -134,7 +132,7 @@
       <div class="vue vue-tableau" id="t-canal" hidden></div>
     </article>
 
-    <article class="carte carte--constats" id="c-constats">
+    <article class="carte carte--constats">
       <header class="carte-tete">
         <div>
           <h2>Trois constats</h2>
@@ -143,12 +141,7 @@
       </header>
       <ol class="constats" id="constats"></ol>
     </article>
-
   </section>
-
-  <footer class="pied">
-    <p>Données synthétiques. DataSprint, M1 MBDA, UN-CHK.</p>
-  </footer>
 </main>
 
 <div class="chargement" id="chargement" hidden>
