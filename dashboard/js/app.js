@@ -363,7 +363,7 @@
     const tri = trier(grouper(rows, (r) => r.categorie));
     const total = somme(tri, (e) => e[1]);
     const choisie = etat.categorie !== 'toutes';
-    $('s-categories').textContent = choisie ? 'Catégorie choisie en vert, les autres en gris' : "Part du chiffre d'affaires";
+    $('s-categories').textContent = choisie ? 'Catégorie choisie en couleur, les autres en gris' : "Part du chiffre d'affaires";
     barresH('g-categories', tri.map((e) => e[0]), tri.map((e) => e[1]),
       tri.map((e) => (!choisie || e[0] === etat.categorie ? T('indigo') : T('contexte'))),
       (i) => '{v|' + court(tri[i][1]) + '}{p|  ' + part(tri[i][1], total) + ' %}',
