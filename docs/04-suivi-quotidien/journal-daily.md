@@ -16,4 +16,4 @@
 
 | Obstacle | Signalé le jour | Responsable | Statut |
 |---|---|---|---|
-| Isselmou n'a pas encore accès au dépôt (invitation à accepter) | J2 | Ndeye Sokhna | Guide envoyé, en cours |
+| Isselmou n'a pas encore accès au dépôt (invitation à accepter) | J2 | Ndeye Sokhna | Résolu le J4 : Isselmou a accès au dépôt et au board |
