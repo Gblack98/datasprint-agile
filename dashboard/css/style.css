@@ -11,7 +11,7 @@
   --trait: #e7e0d0;
   --encre: #1a1b33;
   --encre-2: #464866;
-  --encre-3: #66688a;
+  --encre-3: #5b5d7e;
 
   --bande: #151a3a;
   --bande-texte: #b9bddd;
@@ -19,21 +19,22 @@
   --bande-clair: #f1f1fa;
 
   --indigo: #3e4cb6;
-  --safran: #c88200;
+  --safran: #b87400;
   --safran-clair: #f4b942;
   --rose: #b24d6a;
   --ardoise: #6772c8;
-  --contexte: #928eaa;
-  --precedent: #8b88a3;
+  --contexte: #827d9c;
+  --precedent: #7a7793;
 
   --hausse: #17653f;
   --baisse: #a02a26;
+  --hausse-clair: #7ee2a8;
+  --baisse-clair: #ff9e92;
 
-  --lavande: #e3e5f7;
-  --miel: #f8e8c0;
-  --rose-pale: #f6dde2;
-  --menthe: #daede6;
-  --miel-2: #fbf1d8;
+  --puce-safran: 244, 185, 66;
+  --puce-indigo: 142, 152, 240;
+  --puce-rose: 240, 139, 168;
+  --puce-lilas: 197, 201, 250;
 
   --g: 1rem; /* espace entre les blocs */
 }
@@ -45,9 +46,17 @@ html {
   font-size: clamp(14px, 0.9vw + 8px, 17px);
 }
 
+html { background: var(--papier); }
+
 body {
   margin: 0;
-  background: var(--papier);
+  min-height: 100dvh;
+  background:
+    radial-gradient(48rem 34rem at 6% 30%, rgba(103, 114, 200, 0.32), transparent 65%),
+    radial-gradient(44rem 30rem at 96% 88%, rgba(244, 185, 66, 0.30), transparent 65%),
+    radial-gradient(34rem 24rem at 68% 4%, rgba(178, 77, 106, 0.16), transparent 65%),
+    var(--papier);
+  background-attachment: fixed;
   color: var(--encre);
   font-family: "Bricolage Grotesque", system-ui, sans-serif;
   font-optical-sizing: auto;
@@ -145,23 +154,31 @@ button, select, input { font: inherit; color: inherit; }
 .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
 
 .kpi {
+  --puce: var(--puce-safran);
   display: grid; align-content: space-between; gap: 0.5rem;
   padding: 0.85rem 1rem 0.8rem;
-  border-radius: 1.2rem; color: var(--encre);
-  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+  border-radius: 1.2rem; color: var(--bande-clair);
+  background:
+    radial-gradient(9rem 5rem at 100% 0%, rgba(var(--puce), 0.26), transparent 70%),
+    linear-gradient(150deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.25s;
 }
-.kpi:hover { transform: translateY(-3px); }
-.kpi--lavande { background: var(--lavande); }
-.kpi--miel { background: var(--miel); }
-.kpi--rose { background: var(--rose-pale); }
-.kpi--menthe { background: var(--menthe); }
+.kpi:hover { transform: translateY(-3px); border-color: rgba(var(--puce), 0.55); }
+.kpi--lavande { --puce: var(--puce-safran); }
+.kpi--miel { --puce: var(--puce-indigo); }
+.kpi--rose { --puce: var(--puce-rose); }
+.kpi--menthe { --puce: var(--puce-lilas); }
 
 .kpi header { display: flex; align-items: center; gap: 0.55rem; }
 .kpi h2 { font-size: 0.88rem; font-weight: 620; line-height: 1.2; }
 .kpi-icone {
   flex: none; display: grid; place-items: center;
   width: 1.9rem; height: 1.9rem; border-radius: 50%;
-  background: var(--bande); color: var(--bande-clair);
+  background: rgb(var(--puce)); color: var(--bande);
 }
 .kpi-icone svg {
   width: 1rem; height: 1rem; fill: none; stroke: currentColor;
@@ -172,16 +189,16 @@ button, select, input { font: inherit; color: inherit; }
   display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.4rem;
   font-size: 2.2rem; font-weight: 600; letter-spacing: -0.03em; line-height: 1.05;
 }
-.kpi-valeur small { font-size: 0.78rem; font-weight: 620; letter-spacing: 0; color: var(--encre-2); }
+.kpi-valeur small { font-size: 0.78rem; font-weight: 620; letter-spacing: 0; color: var(--bande-texte); }
 
 .delta {
   display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap;
-  font-size: 0.8rem; font-weight: 650; color: var(--encre-2); min-height: 1.1rem;
+  font-size: 0.8rem; font-weight: 650; color: var(--bande-texte); min-height: 1.1rem;
 }
 .delta svg { width: 0.85rem; height: 0.85rem; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-.delta span { font-weight: 500; color: var(--encre-2); }
-.delta--haut { color: var(--hausse); }
-.delta--bas { color: var(--baisse); }
+.delta span { font-weight: 500; color: var(--bande-texte); }
+.delta--haut { color: var(--hausse-clair); }
+.delta--bas { color: var(--baisse-clair); }
 
 /* Grille de cartes --------------------------------------------------- */
 
@@ -194,11 +211,13 @@ button, select, input { font: inherit; color: inherit; }
 }
 
 .carte {
-  background: var(--carte);
-  border: 1px solid var(--trait);
+  background: rgba(255, 253, 248, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.75);
   border-radius: 1.3rem;
   padding: 0.95rem 1.1rem 0.9rem;
-  box-shadow: 0 1px 0 rgba(26, 27, 51, 0.03), 0 1.1rem 2rem -1.5rem rgba(26, 27, 51, 0.4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1.2rem 2.2rem -1.6rem rgba(26, 27, 51, 0.45);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  backdrop-filter: blur(18px) saturate(150%);
   display: flex; flex-direction: column; min-width: 0; min-height: 0;
   animation: monte 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
@@ -240,9 +259,9 @@ button, select, input { font: inherit; color: inherit; }
 
 .carte--jours {
   background:
-    radial-gradient(24rem 12rem at 100% 0%, rgba(244, 185, 66, 0.14), transparent 70%),
-    var(--bande);
-  border-color: transparent; color: var(--bande-clair);
+    radial-gradient(22rem 11rem at 100% 0%, rgba(244, 185, 66, 0.16), transparent 70%),
+    linear-gradient(160deg, rgba(44, 53, 128, 0.90), rgba(21, 26, 58, 0.90));
+  border-color: rgba(255, 255, 255, 0.14); color: var(--bande-clair);
 }
 .carte--jours .sous { color: var(--bande-texte); }
 .carte--jours .btn-tableau { border-color: rgba(255, 255, 255, 0.2); color: var(--bande-texte); }
@@ -270,8 +289,11 @@ button, select, input { font: inherit; color: inherit; }
 
 /* Constats */
 
-.carte--constats { background: var(--miel-2); border-color: #ebd9a6; }
-.carte--constats .sous { color: #6e5a22; }
+.carte--constats {
+  background: linear-gradient(150deg, rgba(244, 185, 66, 0.30), rgba(255, 253, 248, 0.72));
+  border-color: rgba(244, 185, 66, 0.45);
+}
+.carte--constats .sous { color: #5d4a14; }
 .constats { display: grid; gap: 0.8rem; margin-top: 0.3rem; counter-reset: c; align-content: space-evenly; flex: 1; }
 .constats li {
   counter-increment: c; position: relative;
@@ -379,4 +401,9 @@ button, select, input { font: inherit; color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .carte { background: var(--carte); }
+  .kpi { background: rgba(255, 255, 255, 0.1); }
 }
