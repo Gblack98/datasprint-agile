@@ -1,0 +1,409 @@
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("fonts/bricolage-grotesque-latin.woff2") format("woff2");
+  font-weight: 300 800;
+  font-display: swap;
+}
+
+:root {
+  --papier: #f3eee4;
+  --carte: #fffdf8;
+  --trait: #e7e0d0;
+  --encre: #1a1b33;
+  --encre-2: #464866;
+  --encre-3: #5b5d7e;
+
+  --bande: #151a3a;
+  --bande-texte: #b9bddd;
+  --bande-doux: #9a9fc8;
+  --bande-clair: #f1f1fa;
+
+  --indigo: #3e4cb6;
+  --safran: #b87400;
+  --safran-clair: #f4b942;
+  --rose: #b24d6a;
+  --ardoise: #6772c8;
+  --contexte: #827d9c;
+  --precedent: #7a7793;
+
+  --hausse: #17653f;
+  --baisse: #a02a26;
+  --hausse-clair: #7ee2a8;
+  --baisse-clair: #ff9e92;
+
+  --puce-safran: 244, 185, 66;
+  --puce-indigo: 142, 152, 240;
+  --puce-rose: 240, 139, 168;
+  --puce-lilas: 197, 201, 250;
+
+  --g: 1rem; /* espace entre les blocs */
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: clamp(14px, 0.9vw + 8px, 17px);
+}
+
+html { background: var(--papier); }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background:
+    radial-gradient(48rem 34rem at 6% 30%, rgba(103, 114, 200, 0.32), transparent 65%),
+    radial-gradient(44rem 30rem at 96% 88%, rgba(244, 185, 66, 0.30), transparent 65%),
+    radial-gradient(34rem 24rem at 68% 4%, rgba(178, 77, 106, 0.16), transparent 65%),
+    var(--papier);
+  background-attachment: fixed;
+  color: var(--encre);
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p, ul, ol { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+button, select, input { font: inherit; color: inherit; }
+[hidden] { display: none !important; }
+
+.page {
+  max-width: 112rem;
+  margin: 0 auto;
+  padding: var(--g);
+}
+
+/* Bande du haut ------------------------------------------------------ */
+
+.bande {
+  background:
+    radial-gradient(60rem 18rem at 100% -30%, rgba(244, 185, 66, 0.20), transparent 70%),
+    radial-gradient(50rem 20rem at 0% 130%, rgba(103, 114, 200, 0.28), transparent 70%),
+    var(--bande);
+  color: var(--bande-clair);
+  border-radius: 1.6rem;
+  padding: 1rem 1.2rem 1.15rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.bande-haut {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 0.8rem 1.6rem; flex-wrap: wrap;
+}
+
+.marque { display: flex; align-items: center; gap: 0.8rem; min-width: 0; }
+.marque-logo {
+  flex: none; display: grid; place-items: center;
+  width: 2.7rem; height: 2.7rem; border-radius: 0.9rem;
+  background: var(--safran-clair); color: var(--bande);
+}
+.marque-logo svg { width: 1.6rem; height: 1.6rem; }
+.marque-nom { font-size: 1.15rem; font-weight: 650; letter-spacing: -0.01em; line-height: 1.2; }
+.marque-sous { font-size: 0.84rem; color: var(--bande-texte); }
+
+/* Filtres */
+
+.filtres { display: flex; align-items: center; gap: 0.6rem 1.3rem; flex-wrap: wrap; }
+.filtre { display: flex; align-items: center; gap: 0.55rem; }
+.filtre-nom {
+  font-size: 0.7rem; font-weight: 650; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--bande-doux);
+}
+
+.seg {
+  display: inline-flex; gap: 2px; padding: 0.22rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+}
+.seg button {
+  border: 0; background: transparent; cursor: pointer;
+  color: var(--bande-texte); font-size: 0.84rem; font-weight: 550;
+  padding: 0.36rem 0.8rem; border-radius: 999px; white-space: nowrap;
+  transition: background 0.18s, color 0.18s;
+}
+.seg button:hover { background: rgba(255, 255, 255, 0.09); color: var(--bande-clair); }
+.seg button[aria-checked="true"] { background: var(--papier); color: var(--encre); }
+
+.choix { position: relative; }
+.choix select {
+  appearance: none; -webkit-appearance: none; cursor: pointer;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0; border-radius: 999px;
+  padding: 0.55rem 2.2rem 0.55rem 1rem;
+  font-size: 0.84rem; font-weight: 550; color: var(--bande-clair);
+  min-width: 11rem;
+}
+.choix select option { color: var(--encre); background: var(--carte); }
+.choix::after {
+  content: ""; position: absolute; right: 1rem; top: 50%;
+  width: 0.42rem; height: 0.42rem; margin-top: -0.36rem;
+  border-right: 2px solid var(--bande-texte); border-bottom: 2px solid var(--bande-texte);
+  transform: rotate(45deg); pointer-events: none;
+}
+.choix select:hover { background: rgba(255, 255, 255, 0.12); }
+
+.seg button:focus-visible, .choix select:focus-visible, .btn-tableau:focus-visible,
+.btn-fichier:focus-within { outline: 2px solid var(--safran-clair); outline-offset: 2px; }
+
+/* KPI */
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
+
+.kpi {
+  --puce: var(--puce-safran);
+  display: grid; align-content: space-between; gap: 0.5rem;
+  padding: 0.85rem 1rem 0.8rem;
+  border-radius: 1.2rem; color: var(--bande-clair);
+  background:
+    radial-gradient(9rem 5rem at 100% 0%, rgba(var(--puce), 0.26), transparent 70%),
+    linear-gradient(150deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.25s;
+}
+.kpi:hover { transform: translateY(-3px); border-color: rgba(var(--puce), 0.55); }
+.kpi--lavande { --puce: var(--puce-safran); }
+.kpi--miel { --puce: var(--puce-indigo); }
+.kpi--rose { --puce: var(--puce-rose); }
+.kpi--menthe { --puce: var(--puce-lilas); }
+
+.kpi header { display: flex; align-items: center; gap: 0.55rem; }
+.kpi h2 { font-size: 0.88rem; font-weight: 620; line-height: 1.2; }
+.kpi-icone {
+  flex: none; display: grid; place-items: center;
+  width: 1.9rem; height: 1.9rem; border-radius: 50%;
+  background: rgb(var(--puce)); color: var(--bande);
+}
+.kpi-icone svg {
+  width: 1rem; height: 1rem; fill: none; stroke: currentColor;
+  stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+
+.kpi-valeur {
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 0.4rem;
+  font-size: 2.2rem; font-weight: 600; letter-spacing: -0.03em; line-height: 1.05;
+}
+.kpi-valeur small { font-size: 0.78rem; font-weight: 620; letter-spacing: 0; color: var(--bande-texte); }
+
+.delta {
+  display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap;
+  font-size: 0.8rem; font-weight: 650; color: var(--bande-texte); min-height: 1.1rem;
+}
+.delta svg { width: 0.85rem; height: 0.85rem; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.delta span { font-weight: 500; color: var(--bande-texte); }
+.delta--haut { color: var(--hausse-clair); }
+.delta--bas { color: var(--baisse-clair); }
+
+/* Grille de cartes --------------------------------------------------- */
+
+.grille {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--g);
+  margin-top: var(--g);
+}
+
+.carte {
+  background: rgba(255, 253, 248, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 1.3rem;
+  padding: 0.95rem 1.1rem 0.9rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1.2rem 2.2rem -1.6rem rgba(26, 27, 51, 0.45);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  backdrop-filter: blur(18px) saturate(150%);
+  display: flex; flex-direction: column; min-width: 0; min-height: 0;
+  animation: monte 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.carte--evolution { grid-column: span 12; }
+.carte--jours { grid-column: span 6; }
+.carte--categories { grid-column: span 6; }
+.carte--top, .carte--canal { grid-column: span 6; }
+.carte--constats { grid-column: span 12; }
+.carte:nth-child(3) { animation-delay: 0.05s; }
+.carte:nth-child(4) { animation-delay: 0.1s; }
+.carte:nth-child(5) { animation-delay: 0.15s; }
+.carte:nth-child(6) { animation-delay: 0.2s; }
+.carte:nth-child(7) { animation-delay: 0.25s; }
+
+.carte-tete {
+  display: flex; align-items: flex-start; gap: 0.4rem 0.8rem; flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+.carte-tete > div:first-child { flex: 1; min-width: 7rem; }
+.carte h2 { font-size: 1.02rem; font-weight: 650; letter-spacing: -0.01em; line-height: 1.25; }
+.sous { font-size: 0.78rem; color: var(--encre-3); margin-top: 1px; }
+
+.vue-graphique { width: 100%; height: 14rem; }
+.carte--evolution .vue-graphique { height: 17rem; }
+.vue-canal { display: flex; flex-direction: column; }
+.g-canal { height: 2.2rem; flex: none; }
+.g-zone { height: 8.5rem; flex: 1; min-height: 5rem; }
+
+.btn-tableau {
+  display: inline-flex; align-items: center;
+  border: 1px solid var(--trait); background: transparent; color: var(--encre-2);
+  font-size: 0.74rem; font-weight: 620; padding: 0.22rem 0.65rem; border-radius: 999px; cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+.btn-tableau:hover { background: rgba(26, 27, 51, 0.05); }
+.btn-tableau[aria-pressed="true"] { background: var(--encre); color: var(--carte); border-color: var(--encre); }
+
+/* Carte sombre : ventes par jour */
+
+.carte--jours {
+  background:
+    radial-gradient(22rem 11rem at 100% 0%, rgba(244, 185, 66, 0.16), transparent 70%),
+    linear-gradient(160deg, rgba(44, 53, 128, 0.90), rgba(21, 26, 58, 0.90));
+  border-color: rgba(255, 255, 255, 0.14); color: var(--bande-clair);
+}
+.carte--jours .sous { color: var(--bande-texte); }
+.carte--jours .btn-tableau { border-color: rgba(255, 255, 255, 0.2); color: var(--bande-texte); }
+.carte--jours .btn-tableau:hover { background: rgba(255, 255, 255, 0.09); }
+.carte--jours .btn-tableau[aria-pressed="true"] { background: var(--papier); color: var(--encre); border-color: var(--papier); }
+
+/* Légendes */
+
+.legende { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; align-items: center; font-size: 0.8rem; color: var(--encre-2); }
+.legende li { display: inline-flex; align-items: center; gap: 0.45rem; }
+.legende i { display: inline-block; width: 1rem; height: 2px; border-radius: 2px; }
+.legende--canal { gap: 0.2rem 1.3rem; margin: 0.1rem 0 0.3rem; }
+.legende--canal i { width: 0.6rem; height: 0.6rem; border-radius: 3px; }
+.legende--canal b { color: var(--encre); font-weight: 650; }
+
+/* Tableaux */
+
+.vue-tableau { overflow: auto; flex: 1; min-height: 0; max-height: 17rem; }
+.vue-tableau table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+.vue-tableau th, .vue-tableau td { padding: 0.4rem 0.55rem; text-align: left; border-bottom: 1px solid var(--trait); }
+.vue-tableau th { font-size: 0.68rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--encre-3); }
+.vue-tableau td.num, .vue-tableau th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.carte--jours .vue-tableau th, .carte--jours .vue-tableau td { border-color: rgba(255, 255, 255, 0.12); color: var(--bande-clair); }
+.carte--jours .vue-tableau th { color: var(--bande-texte); }
+
+/* Constats */
+
+.carte--constats {
+  background: linear-gradient(150deg, rgba(244, 185, 66, 0.30), rgba(255, 253, 248, 0.72));
+  border-color: rgba(244, 185, 66, 0.45);
+}
+.carte--constats .sous { color: #5d4a14; }
+.constats { display: grid; gap: 0.8rem; margin-top: 0.3rem; counter-reset: c; align-content: space-evenly; flex: 1; }
+.constats li {
+  counter-increment: c; position: relative;
+  padding-left: 2.4rem; font-size: 0.95rem; line-height: 1.4; color: var(--encre);
+}
+.constats li::before {
+  content: counter(c);
+  position: absolute; left: 0; top: 0;
+  display: grid; place-items: center; width: 1.65rem; height: 1.65rem; border-radius: 50%;
+  background: var(--bande); color: var(--safran-clair); font-size: 0.8rem; font-weight: 650;
+}
+.constats strong { font-weight: 650; }
+
+/* États */
+
+.message-vide {
+  position: absolute; z-index: 3; left: 50%; top: 0.8rem; transform: translateX(-50%);
+  padding: 0.6rem 1.1rem; border-radius: 999px; max-width: 92%;
+  background: var(--bande); color: var(--bande-clair); font-weight: 550; font-size: 0.9rem;
+  box-shadow: 0 0.8rem 1.8rem -0.8rem rgba(0, 0, 0, 0.5);
+}
+.grille.est-vide .vue-graphique, .grille.est-vide .constats { opacity: 0.3; }
+
+@keyframes monte { from { opacity: 0; transform: translateY(0.9rem); } to { opacity: 1; transform: none; } }
+
+.chargement {
+  position: fixed; inset: 0; z-index: 10;
+  display: grid; place-items: center; padding: 1.2rem;
+  background: rgba(21, 26, 58, 0.78);
+}
+.chargement-carte {
+  max-width: 32rem; background: var(--carte); border-radius: 1.5rem; padding: 1.7rem 1.8rem;
+  display: grid; gap: 0.75rem;
+}
+.chargement-carte h2 { font-size: 1.3rem; font-weight: 650; }
+.chargement-carte ol { list-style: decimal; padding-left: 1.2rem; display: grid; gap: 0.5rem; }
+.chargement-carte code { background: var(--papier); padding: 1px 6px; border-radius: 6px; font-size: 0.85rem; }
+.btn-fichier {
+  justify-self: start; cursor: pointer; background: var(--encre); color: var(--carte);
+  padding: 0.65rem 1.1rem; border-radius: 999px; font-weight: 600; font-size: 0.9rem;
+}
+.btn-fichier input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+
+/* Grand écran : tout le tableau de bord tient dans la fenêtre ---------- */
+
+@media (min-width: 1180px) and (min-height: 620px) {
+  html { font-size: clamp(13px, min(0.98vw, 1.7vh), 22px); }
+  :root { --g: 0.85rem; }
+
+  .page {
+    height: 100dvh; min-height: 34rem;
+    display: grid; grid-template-rows: auto minmax(0, 1fr);
+  }
+  .grille {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    margin-top: var(--g);
+  }
+  .carte--evolution { grid-column: span 6; }
+  .carte--jours { grid-column: span 3; }
+  .carte--categories { grid-column: span 3; }
+  .carte--top, .carte--canal, .carte--constats { grid-column: span 4; }
+
+  .vue-graphique, .carte--evolution .vue-graphique { flex: 1; height: auto; min-height: 0; }
+  .g-zone { height: auto; }
+  .constats li { font-size: 0.92rem; }
+}
+
+/* Écrans intermédiaires : deux colonnes ---------------------------------- */
+
+@media (min-width: 700px) and (max-width: 1179px), (min-width: 1180px) and (max-height: 619px) {
+  .carte--evolution { grid-column: span 12; }
+  .carte--jours, .carte--categories, .carte--top, .carte--canal { grid-column: span 6; }
+  .carte--constats { grid-column: span 12; }
+  .carte--evolution .vue-graphique { height: 18rem; }
+  .vue-graphique { height: 15rem; }
+}
+
+/* Téléphone */
+
+@media (max-width: 699px) {
+  html { font-size: 15px; }
+  :root { --g: 0.7rem; }
+  .page { padding: 0.5rem; }
+  .bande { padding: 0.9rem 0.8rem 0.9rem; border-radius: 1.4rem; }
+  .filtres { width: 100%; flex-direction: column; align-items: stretch; gap: 0.6rem; }
+  .filtre { flex-direction: column; align-items: stretch; gap: 0.25rem; }
+  .filtre-nom { padding-left: 0.3rem; }
+  .seg { overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+  .seg::-webkit-scrollbar { display: none; }
+  .choix select { width: 100%; }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; }
+  .kpi { padding: 0.75rem 0.8rem; }
+  .kpi-valeur { font-size: 1.85rem; }
+  .carte--evolution, .carte--jours, .carte--categories, .carte--top, .carte--canal, .carte--constats { grid-column: span 12; }
+  .carte { padding: 0.9rem 0.9rem 0.8rem; }
+  .carte--evolution .vue-graphique { height: 15rem; }
+  .vue-graphique { height: 14rem; }
+}
+
+@media (max-width: 359px) {
+  html { font-size: 14px; }
+  .kpi-valeur { font-size: 1.55rem; }
+  .kpi h2 { font-size: 0.8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .carte { background: var(--carte); }
+  .kpi { background: rgba(255, 255, 255, 0.1); }
+}

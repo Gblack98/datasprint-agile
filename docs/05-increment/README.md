@@ -1,7 +1,5 @@
 # Incrément produit
 
-À remplir en fin de sprint :
-
-- Fichier ou lien du tableau de bord : 
-- Jeu de données utilisé : `donnees/`
-- Comment l'ouvrir :
+- Tableau de bord : `dashboard/index.html`
+- Jeu de données : `donnees/ventes.csv`, décrit dans `donnees/README.md`
+- Comment l'ouvrir : voir `dashboard/README.md`
