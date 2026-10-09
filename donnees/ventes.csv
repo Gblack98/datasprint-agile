@@ -3,177 +3,288 @@ CMD-1001,2026-09-07,Lundi,Montre connectée,Électronique,1,25000,Boutique,Thiè
 CMD-1002,2026-09-07,Lundi,Savon noir,Beauté,4,1500,Boutique,Dakar,Espèces
 CMD-1003,2026-09-07,Lundi,Savon noir,Beauté,1,1500,Web,Thiès,Wave
 CMD-1004,2026-09-07,Lundi,Casque Bluetooth,Électronique,2,15000,Web,Saint-Louis,Carte
-CMD-1005,2026-09-08,Mardi,Écouteurs sans fil,Électronique,2,12000,Boutique,Thiès,Espèces
-CMD-1006,2026-09-08,Mardi,Savon noir,Beauté,3,1500,Web,Dakar,Orange Money
-CMD-1007,2026-09-08,Mardi,Casque Bluetooth,Électronique,2,15000,Boutique,Dakar,Espèces
-CMD-1008,2026-09-08,Mardi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
-CMD-1009,2026-09-08,Mardi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
-CMD-1010,2026-09-09,Mercredi,Beurre de karité,Beauté,4,2500,Boutique,Thiès,Espèces
-CMD-1011,2026-09-09,Mercredi,Sandales cuir,Mode,1,7500,Boutique,Dakar,Orange Money
-CMD-1012,2026-09-09,Mercredi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
-CMD-1013,2026-09-09,Mercredi,Boubou brodé,Mode,2,18000,Web,Saint-Louis,Wave
-CMD-1014,2026-09-09,Mercredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Thiès,Espèces
-CMD-1015,2026-09-09,Mercredi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Espèces
-CMD-1016,2026-09-09,Mercredi,Beurre de karité,Beauté,1,2500,Web,Saint-Louis,Carte
-CMD-1017,2026-09-10,Jeudi,Clé USB 64 Go,Électronique,2,4500,Boutique,Thiès,Orange Money
-CMD-1018,2026-09-10,Jeudi,T-shirt coton,Mode,2,4000,Boutique,Dakar,Espèces
-CMD-1019,2026-09-10,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
-CMD-1020,2026-09-10,Jeudi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Orange Money
-CMD-1021,2026-09-10,Jeudi,Sac à main,Mode,2,12500,Boutique,Thiès,Espèces
-CMD-1022,2026-09-11,Vendredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
-CMD-1023,2026-09-11,Vendredi,Montre connectée,Électronique,1,25000,Web,Dakar,Orange Money
-CMD-1024,2026-09-11,Vendredi,Bouilloire électrique,Maison,1,11000,Web,Dakar,Orange Money
-CMD-1025,2026-09-11,Vendredi,Fer à repasser,Maison,1,9500,Web,Dakar,Orange Money
-CMD-1026,2026-09-11,Vendredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
-CMD-1027,2026-09-11,Vendredi,Crème hydratante,Beauté,2,5500,Boutique,Dakar,Carte
-CMD-1028,2026-09-11,Vendredi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
-CMD-1029,2026-09-12,Samedi,Savon noir,Beauté,1,1500,Web,Dakar,Carte
-CMD-1030,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
-CMD-1031,2026-09-12,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Orange Money
-CMD-1032,2026-09-12,Samedi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Wave
-CMD-1033,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
-CMD-1034,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
-CMD-1035,2026-09-12,Samedi,Sandales cuir,Mode,1,7500,Web,Thiès,Wave
-CMD-1036,2026-09-12,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Carte
-CMD-1037,2026-09-12,Samedi,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Espèces
-CMD-1038,2026-09-12,Samedi,Beurre de karité,Beauté,4,2500,Web,Dakar,Wave
-CMD-1039,2026-09-12,Samedi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Orange Money
-CMD-1040,2026-09-12,Samedi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Orange Money
-CMD-1041,2026-09-13,Dimanche,Beurre de karité,Beauté,3,2500,Boutique,Thiès,Wave
-CMD-1042,2026-09-13,Dimanche,Sandales cuir,Mode,1,7500,Boutique,Dakar,Espèces
-CMD-1043,2026-09-13,Dimanche,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
-CMD-1044,2026-09-14,Lundi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
-CMD-1045,2026-09-14,Lundi,Lampe LED rechargeable,Maison,1,3500,Web,Thiès,Orange Money
-CMD-1046,2026-09-14,Lundi,Parfum 50 ml,Beauté,2,14000,Boutique,Dakar,Orange Money
-CMD-1047,2026-09-14,Lundi,Bouilloire électrique,Maison,1,11000,Web,Thiès,Wave
-CMD-1048,2026-09-15,Mardi,Parfum 50 ml,Beauté,3,14000,Web,Dakar,Orange Money
-CMD-1049,2026-09-15,Mardi,T-shirt coton,Mode,1,4000,Web,Dakar,Wave
-CMD-1050,2026-09-15,Mardi,Chargeur rapide,Électronique,2,5000,Boutique,Thiès,Orange Money
-CMD-1051,2026-09-15,Mardi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
-CMD-1052,2026-09-15,Mardi,Casque Bluetooth,Électronique,1,15000,Boutique,Thiès,Espèces
-CMD-1053,2026-09-16,Mercredi,Savon noir,Beauté,3,1500,Boutique,Dakar,Carte
-CMD-1054,2026-09-16,Mercredi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
-CMD-1055,2026-09-16,Mercredi,Montre connectée,Électronique,2,25000,Boutique,Dakar,Wave
-CMD-1056,2026-09-16,Mercredi,Clé USB 64 Go,Électronique,1,4500,Boutique,Dakar,Espèces
-CMD-1057,2026-09-16,Mercredi,Parfum 50 ml,Beauté,2,14000,Boutique,Dakar,Espèces
-CMD-1058,2026-09-16,Mercredi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Wave
-CMD-1059,2026-09-17,Jeudi,T-shirt coton,Mode,1,4000,Web,Dakar,Orange Money
-CMD-1060,2026-09-17,Jeudi,Parfum 50 ml,Beauté,4,14000,Web,Thiès,Wave
-CMD-1061,2026-09-17,Jeudi,Savon noir,Beauté,4,1500,Web,Dakar,Carte
-CMD-1062,2026-09-17,Jeudi,Sac à main,Mode,1,12500,Web,Thiès,Orange Money
-CMD-1063,2026-09-17,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
-CMD-1064,2026-09-17,Jeudi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Espèces
-CMD-1065,2026-09-18,Vendredi,Sac à main,Mode,2,12500,Boutique,Thiès,Espèces
-CMD-1066,2026-09-18,Vendredi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Carte
-CMD-1067,2026-09-18,Vendredi,T-shirt coton,Mode,2,4000,Web,Thiès,Wave
-CMD-1068,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Dakar,Wave
-CMD-1069,2026-09-18,Vendredi,Clé USB 64 Go,Électronique,2,4500,Boutique,Thiès,Espèces
-CMD-1070,2026-09-18,Vendredi,Savon noir,Beauté,3,1500,Web,Dakar,Orange Money
-CMD-1071,2026-09-18,Vendredi,Power bank 10000 mAh,Électronique,1,9000,Boutique,Dakar,Espèces
-CMD-1072,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Dakar,Wave
-CMD-1073,2026-09-19,Samedi,Sac à main,Mode,1,12500,Boutique,Dakar,Espèces
-CMD-1074,2026-09-19,Samedi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Wave
-CMD-1075,2026-09-19,Samedi,Savon noir,Beauté,3,1500,Web,Saint-Louis,Orange Money
-CMD-1076,2026-09-19,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
-CMD-1077,2026-09-19,Samedi,Savon noir,Beauté,2,1500,Boutique,Dakar,Espèces
-CMD-1078,2026-09-19,Samedi,Parfum 50 ml,Beauté,1,14000,Web,Dakar,Carte
-CMD-1079,2026-09-19,Samedi,Savon noir,Beauté,1,1500,Boutique,Dakar,Espèces
-CMD-1080,2026-09-19,Samedi,Parfum 50 ml,Beauté,2,14000,Web,Dakar,Orange Money
-CMD-1081,2026-09-19,Samedi,Montre connectée,Électronique,1,25000,Boutique,Thiès,Espèces
-CMD-1082,2026-09-19,Samedi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Espèces
-CMD-1083,2026-09-19,Samedi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Orange Money
-CMD-1084,2026-09-19,Samedi,Beurre de karité,Beauté,4,2500,Web,Saint-Louis,Carte
-CMD-1085,2026-09-20,Dimanche,Chargeur rapide,Électronique,2,5000,Web,Dakar,Wave
-CMD-1086,2026-09-20,Dimanche,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Orange Money
-CMD-1087,2026-09-20,Dimanche,Power bank 10000 mAh,Électronique,2,9000,Web,Thiès,Wave
-CMD-1088,2026-09-20,Dimanche,Beurre de karité,Beauté,2,2500,Boutique,Dakar,Wave
-CMD-1089,2026-09-21,Lundi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Espèces
-CMD-1090,2026-09-21,Lundi,Beurre de karité,Beauté,2,2500,Boutique,Dakar,Orange Money
-CMD-1091,2026-09-21,Lundi,T-shirt coton,Mode,1,4000,Web,Dakar,Orange Money
-CMD-1092,2026-09-21,Lundi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Espèces
-CMD-1093,2026-09-21,Lundi,Ventilateur sur pied,Maison,1,22000,Boutique,Thiès,Orange Money
-CMD-1094,2026-09-22,Mardi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
-CMD-1095,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,2,9000,Web,Thiès,Orange Money
-CMD-1096,2026-09-22,Mardi,Savon noir,Beauté,1,1500,Boutique,Dakar,Wave
-CMD-1097,2026-09-22,Mardi,Casque Bluetooth,Électronique,2,15000,Web,Saint-Louis,Wave
-CMD-1098,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
-CMD-1099,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,1,9000,Boutique,Dakar,Carte
-CMD-1100,2026-09-23,Mercredi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Espèces
-CMD-1101,2026-09-23,Mercredi,Bouilloire électrique,Maison,1,11000,Web,Dakar,Orange Money
-CMD-1102,2026-09-23,Mercredi,Écouteurs sans fil,Électronique,1,12000,Web,Dakar,Orange Money
-CMD-1103,2026-09-23,Mercredi,Crème hydratante,Beauté,3,5500,Boutique,Dakar,Wave
-CMD-1104,2026-09-23,Mercredi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Wave
-CMD-1105,2026-09-23,Mercredi,Chargeur rapide,Électronique,2,5000,Web,Saint-Louis,Orange Money
-CMD-1106,2026-09-24,Jeudi,Écouteurs sans fil,Électronique,1,12000,Boutique,Dakar,Wave
-CMD-1107,2026-09-24,Jeudi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
-CMD-1108,2026-09-24,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
-CMD-1109,2026-09-24,Jeudi,Sandales cuir,Mode,1,7500,Web,Dakar,Wave
-CMD-1110,2026-09-24,Jeudi,Crème hydratante,Beauté,4,5500,Boutique,Dakar,Wave
-CMD-1111,2026-09-24,Jeudi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
-CMD-1112,2026-09-24,Jeudi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Espèces
-CMD-1113,2026-09-25,Vendredi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
-CMD-1114,2026-09-25,Vendredi,Sandales cuir,Mode,1,7500,Web,Thiès,Orange Money
-CMD-1115,2026-09-25,Vendredi,Parfum 50 ml,Beauté,1,14000,Boutique,Dakar,Espèces
-CMD-1116,2026-09-25,Vendredi,Crème hydratante,Beauté,2,5500,Web,Dakar,Carte
-CMD-1117,2026-09-25,Vendredi,Montre connectée,Électronique,1,25000,Boutique,Dakar,Wave
-CMD-1118,2026-09-25,Vendredi,Casque Bluetooth,Électronique,2,15000,Web,Dakar,Wave
-CMD-1119,2026-09-25,Vendredi,Crème hydratante,Beauté,1,5500,Web,Dakar,Carte
-CMD-1120,2026-09-25,Vendredi,Sandales cuir,Mode,1,7500,Web,Dakar,Orange Money
-CMD-1121,2026-09-25,Vendredi,T-shirt coton,Mode,2,4000,Web,Saint-Louis,Orange Money
-CMD-1122,2026-09-26,Samedi,Parfum 50 ml,Beauté,4,14000,Web,Saint-Louis,Wave
-CMD-1123,2026-09-26,Samedi,Bouilloire électrique,Maison,1,11000,Boutique,Dakar,Espèces
-CMD-1124,2026-09-26,Samedi,Casque Bluetooth,Électronique,2,15000,Boutique,Dakar,Carte
-CMD-1125,2026-09-26,Samedi,T-shirt coton,Mode,2,4000,Web,Dakar,Wave
-CMD-1126,2026-09-26,Samedi,Savon noir,Beauté,2,1500,Boutique,Thiès,Wave
-CMD-1127,2026-09-26,Samedi,Parfum 50 ml,Beauté,2,14000,Web,Thiès,Wave
-CMD-1128,2026-09-26,Samedi,Casque Bluetooth,Électronique,2,15000,Web,Saint-Louis,Orange Money
-CMD-1129,2026-09-26,Samedi,Montre connectée,Électronique,2,25000,Boutique,Thiès,Wave
-CMD-1130,2026-09-26,Samedi,Écouteurs sans fil,Électronique,2,12000,Web,Dakar,Carte
-CMD-1131,2026-09-26,Samedi,Beurre de karité,Beauté,2,2500,Web,Thiès,Wave
-CMD-1132,2026-09-26,Samedi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Wave
-CMD-1133,2026-09-27,Dimanche,Parfum 50 ml,Beauté,1,14000,Boutique,Dakar,Wave
-CMD-1134,2026-09-27,Dimanche,Beurre de karité,Beauté,4,2500,Web,Dakar,Wave
-CMD-1135,2026-09-27,Dimanche,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
-CMD-1136,2026-09-27,Dimanche,Fer à repasser,Maison,1,9500,Web,Dakar,Wave
-CMD-1137,2026-09-28,Lundi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Orange Money
-CMD-1138,2026-09-28,Lundi,Parfum 50 ml,Beauté,3,14000,Boutique,Dakar,Espèces
-CMD-1139,2026-09-28,Lundi,Ventilateur sur pied,Maison,1,22000,Web,Dakar,Wave
-CMD-1140,2026-09-28,Lundi,Ventilateur sur pied,Maison,1,22000,Web,Saint-Louis,Orange Money
-CMD-1141,2026-09-29,Mardi,Boubou brodé,Mode,2,18000,Web,Thiès,Wave
-CMD-1142,2026-09-29,Mardi,Ventilateur sur pied,Maison,1,22000,Web,Saint-Louis,Orange Money
-CMD-1143,2026-09-29,Mardi,Savon noir,Beauté,3,1500,Boutique,Dakar,Wave
-CMD-1144,2026-09-29,Mardi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Orange Money
-CMD-1145,2026-09-30,Mercredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
-CMD-1146,2026-09-30,Mercredi,T-shirt coton,Mode,2,4000,Web,Saint-Louis,Orange Money
-CMD-1147,2026-09-30,Mercredi,Beurre de karité,Beauté,2,2500,Web,Thiès,Orange Money
-CMD-1148,2026-09-30,Mercredi,Sac à main,Mode,1,12500,Web,Dakar,Orange Money
-CMD-1149,2026-09-30,Mercredi,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Espèces
-CMD-1150,2026-10-01,Jeudi,Sac à main,Mode,1,12500,Boutique,Dakar,Orange Money
-CMD-1151,2026-10-01,Jeudi,Crème hydratante,Beauté,4,5500,Boutique,Dakar,Espèces
-CMD-1152,2026-10-01,Jeudi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Espèces
-CMD-1153,2026-10-01,Jeudi,Chargeur rapide,Électronique,1,5000,Web,Dakar,Wave
-CMD-1154,2026-10-01,Jeudi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Espèces
-CMD-1155,2026-10-02,Vendredi,Écouteurs sans fil,Électronique,2,12000,Web,Dakar,Orange Money
-CMD-1156,2026-10-02,Vendredi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
-CMD-1157,2026-10-02,Vendredi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Wave
-CMD-1158,2026-10-02,Vendredi,T-shirt coton,Mode,1,4000,Web,Thiès,Wave
-CMD-1159,2026-10-02,Vendredi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Wave
-CMD-1160,2026-10-02,Vendredi,Chargeur rapide,Électronique,1,5000,Web,Saint-Louis,Wave
-CMD-1161,2026-10-02,Vendredi,Beurre de karité,Beauté,3,2500,Web,Thiès,Wave
-CMD-1162,2026-10-02,Vendredi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Wave
-CMD-1163,2026-10-03,Samedi,Crème hydratante,Beauté,2,5500,Boutique,Dakar,Wave
-CMD-1164,2026-10-03,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Espèces
-CMD-1165,2026-10-03,Samedi,Fer à repasser,Maison,1,9500,Web,Dakar,Orange Money
-CMD-1166,2026-10-03,Samedi,Fer à repasser,Maison,1,9500,Boutique,Dakar,Espèces
-CMD-1167,2026-10-03,Samedi,Chargeur rapide,Électronique,1,5000,Web,Saint-Louis,Wave
-CMD-1168,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Web,Thiès,Wave
-CMD-1169,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Web,Dakar,Carte
-CMD-1170,2026-10-03,Samedi,Crème hydratante,Beauté,3,5500,Web,Dakar,Wave
-CMD-1171,2026-10-03,Samedi,Power bank 10000 mAh,Électronique,2,9000,Web,Dakar,Wave
-CMD-1172,2026-10-03,Samedi,Parfum 50 ml,Beauté,3,14000,Boutique,Dakar,Carte
-CMD-1173,2026-10-03,Samedi,Lampe LED rechargeable,Maison,1,3500,Web,Saint-Louis,Wave
-CMD-1174,2026-10-03,Samedi,Casque Bluetooth,Électronique,2,15000,Web,Thiès,Orange Money
-CMD-1175,2026-10-04,Dimanche,Ventilateur sur pied,Maison,1,22000,Boutique,Thiès,Espèces
-CMD-1176,2026-10-04,Dimanche,Sac à main,Mode,1,12500,Web,Dakar,Wave
-CMD-1177,2026-10-04,Dimanche,Crème hydratante,Beauté,2,5500,Web,Saint-Louis,Wave
-CMD-1178,2026-10-04,Dimanche,T-shirt coton,Mode,2,4000,Web,Dakar,Wave
+CMD-1005,2026-09-07,Lundi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Carte
+CMD-1006,2026-09-07,Lundi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
+CMD-1007,2026-09-08,Mardi,Écouteurs sans fil,Électronique,2,12000,Boutique,Thiès,Espèces
+CMD-1008,2026-09-08,Mardi,Savon noir,Beauté,3,1500,Web,Dakar,Orange Money
+CMD-1009,2026-09-08,Mardi,Casque Bluetooth,Électronique,2,15000,Boutique,Dakar,Espèces
+CMD-1010,2026-09-08,Mardi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
+CMD-1011,2026-09-08,Mardi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
+CMD-1012,2026-09-08,Mardi,Savon noir,Beauté,3,1500,Boutique,Dakar,Espèces
+CMD-1013,2026-09-08,Mardi,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Espèces
+CMD-1014,2026-09-08,Mardi,Fer à repasser,Maison,1,9500,Boutique,Dakar,Wave
+CMD-1015,2026-09-08,Mardi,Parfum 50 ml,Beauté,1,14000,Boutique,Dakar,Espèces
+CMD-1016,2026-09-08,Mardi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
+CMD-1017,2026-09-08,Mardi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Espèces
+CMD-1018,2026-09-08,Mardi,Sandales cuir,Mode,1,7500,Boutique,Dakar,Carte
+CMD-1019,2026-09-09,Mercredi,Beurre de karité,Beauté,4,2500,Boutique,Thiès,Espèces
+CMD-1020,2026-09-09,Mercredi,Sandales cuir,Mode,1,7500,Boutique,Dakar,Orange Money
+CMD-1021,2026-09-09,Mercredi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
+CMD-1022,2026-09-09,Mercredi,Boubou brodé,Mode,2,18000,Web,Saint-Louis,Wave
+CMD-1023,2026-09-09,Mercredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Thiès,Espèces
+CMD-1024,2026-09-09,Mercredi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Espèces
+CMD-1025,2026-09-09,Mercredi,Beurre de karité,Beauté,1,2500,Web,Saint-Louis,Carte
+CMD-1026,2026-09-09,Mercredi,Sandales cuir,Mode,1,7500,Web,Dakar,Wave
+CMD-1027,2026-09-09,Mercredi,Beurre de karité,Beauté,4,2500,Boutique,Dakar,Espèces
+CMD-1028,2026-09-09,Mercredi,Savon noir,Beauté,3,1500,Boutique,Dakar,Carte
+CMD-1029,2026-09-09,Mercredi,Bouilloire électrique,Maison,1,11000,Boutique,Dakar,Orange Money
+CMD-1030,2026-09-10,Jeudi,Clé USB 64 Go,Électronique,2,4500,Boutique,Thiès,Orange Money
+CMD-1031,2026-09-10,Jeudi,T-shirt coton,Mode,2,4000,Boutique,Dakar,Espèces
+CMD-1032,2026-09-10,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
+CMD-1033,2026-09-10,Jeudi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Orange Money
+CMD-1034,2026-09-10,Jeudi,Sac à main,Mode,2,12500,Boutique,Thiès,Espèces
+CMD-1035,2026-09-11,Vendredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
+CMD-1036,2026-09-11,Vendredi,Montre connectée,Électronique,1,25000,Web,Dakar,Orange Money
+CMD-1037,2026-09-11,Vendredi,Bouilloire électrique,Maison,1,11000,Web,Dakar,Orange Money
+CMD-1038,2026-09-11,Vendredi,Fer à repasser,Maison,1,9500,Web,Dakar,Orange Money
+CMD-1039,2026-09-11,Vendredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
+CMD-1040,2026-09-11,Vendredi,Crème hydratante,Beauté,2,5500,Boutique,Dakar,Carte
+CMD-1041,2026-09-11,Vendredi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
+CMD-1042,2026-09-11,Vendredi,Sac à main,Mode,1,12500,Web,Dakar,Wave
+CMD-1043,2026-09-11,Vendredi,Montre connectée,Électronique,1,25000,Boutique,Dakar,Espèces
+CMD-1044,2026-09-11,Vendredi,Crème hydratante,Beauté,3,5500,Boutique,Dakar,Espèces
+CMD-1045,2026-09-11,Vendredi,Crème hydratante,Beauté,3,5500,Web,Dakar,Orange Money
+CMD-1046,2026-09-11,Vendredi,Bouilloire électrique,Maison,1,11000,Boutique,Dakar,Espèces
+CMD-1047,2026-09-11,Vendredi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Carte
+CMD-1048,2026-09-11,Vendredi,Boubou brodé,Mode,2,18000,Boutique,Thiès,Espèces
+CMD-1049,2026-09-11,Vendredi,Crème hydratante,Beauté,2,5500,Boutique,Dakar,Wave
+CMD-1050,2026-09-11,Vendredi,Parfum 50 ml,Beauté,4,14000,Web,Saint-Louis,Wave
+CMD-1051,2026-09-12,Samedi,Savon noir,Beauté,1,1500,Web,Dakar,Carte
+CMD-1052,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
+CMD-1053,2026-09-12,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Orange Money
+CMD-1054,2026-09-12,Samedi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Wave
+CMD-1055,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1056,2026-09-12,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1057,2026-09-12,Samedi,Sandales cuir,Mode,1,7500,Web,Thiès,Wave
+CMD-1058,2026-09-12,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Carte
+CMD-1059,2026-09-12,Samedi,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Espèces
+CMD-1060,2026-09-12,Samedi,Beurre de karité,Beauté,4,2500,Web,Dakar,Wave
+CMD-1061,2026-09-12,Samedi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Orange Money
+CMD-1062,2026-09-12,Samedi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Orange Money
+CMD-1063,2026-09-12,Samedi,Parfum 50 ml,Beauté,1,14000,Boutique,Thiès,Espèces
+CMD-1064,2026-09-12,Samedi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Wave
+CMD-1065,2026-09-12,Samedi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Wave
+CMD-1066,2026-09-12,Samedi,Crème hydratante,Beauté,1,5500,Boutique,Dakar,Wave
+CMD-1067,2026-09-12,Samedi,Casque Bluetooth,Électronique,1,15000,Web,Saint-Louis,Carte
+CMD-1068,2026-09-13,Dimanche,Beurre de karité,Beauté,3,2500,Boutique,Thiès,Wave
+CMD-1069,2026-09-13,Dimanche,Sandales cuir,Mode,1,7500,Boutique,Dakar,Espèces
+CMD-1070,2026-09-13,Dimanche,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1071,2026-09-14,Lundi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
+CMD-1072,2026-09-14,Lundi,Lampe LED rechargeable,Maison,1,3500,Web,Thiès,Orange Money
+CMD-1073,2026-09-14,Lundi,Parfum 50 ml,Beauté,2,14000,Boutique,Dakar,Orange Money
+CMD-1074,2026-09-14,Lundi,Bouilloire électrique,Maison,1,11000,Web,Thiès,Wave
+CMD-1075,2026-09-14,Lundi,Clé USB 64 Go,Électronique,2,4500,Web,Dakar,Carte
+CMD-1076,2026-09-14,Lundi,Lampe LED rechargeable,Maison,1,3500,Web,Saint-Louis,Wave
+CMD-1077,2026-09-14,Lundi,Beurre de karité,Beauté,4,2500,Web,Dakar,Orange Money
+CMD-1078,2026-09-15,Mardi,Parfum 50 ml,Beauté,3,14000,Web,Dakar,Orange Money
+CMD-1079,2026-09-15,Mardi,T-shirt coton,Mode,1,4000,Web,Dakar,Wave
+CMD-1080,2026-09-15,Mardi,Chargeur rapide,Électronique,2,5000,Boutique,Thiès,Orange Money
+CMD-1081,2026-09-15,Mardi,Savon noir,Beauté,4,1500,Boutique,Dakar,Wave
+CMD-1082,2026-09-15,Mardi,Casque Bluetooth,Électronique,1,15000,Boutique,Thiès,Espèces
+CMD-1083,2026-09-15,Mardi,Fer à repasser,Maison,1,9500,Boutique,Dakar,Wave
+CMD-1084,2026-09-15,Mardi,Savon noir,Beauté,4,1500,Boutique,Dakar,Espèces
+CMD-1085,2026-09-15,Mardi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Espèces
+CMD-1086,2026-09-16,Mercredi,Savon noir,Beauté,3,1500,Boutique,Dakar,Carte
+CMD-1087,2026-09-16,Mercredi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
+CMD-1088,2026-09-16,Mercredi,Montre connectée,Électronique,2,25000,Boutique,Dakar,Wave
+CMD-1089,2026-09-16,Mercredi,Clé USB 64 Go,Électronique,1,4500,Boutique,Dakar,Espèces
+CMD-1090,2026-09-16,Mercredi,Parfum 50 ml,Beauté,2,14000,Boutique,Dakar,Espèces
+CMD-1091,2026-09-16,Mercredi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Wave
+CMD-1092,2026-09-16,Mercredi,Chargeur rapide,Électronique,1,5000,Web,Dakar,Orange Money
+CMD-1093,2026-09-16,Mercredi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
+CMD-1094,2026-09-17,Jeudi,T-shirt coton,Mode,1,4000,Web,Dakar,Orange Money
+CMD-1095,2026-09-17,Jeudi,Parfum 50 ml,Beauté,4,14000,Web,Thiès,Wave
+CMD-1096,2026-09-17,Jeudi,Savon noir,Beauté,4,1500,Web,Dakar,Carte
+CMD-1097,2026-09-17,Jeudi,Sac à main,Mode,1,12500,Web,Thiès,Orange Money
+CMD-1098,2026-09-17,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
+CMD-1099,2026-09-17,Jeudi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Espèces
+CMD-1100,2026-09-17,Jeudi,Savon noir,Beauté,1,1500,Web,Thiès,Carte
+CMD-1101,2026-09-17,Jeudi,Savon noir,Beauté,4,1500,Boutique,Dakar,Espèces
+CMD-1102,2026-09-17,Jeudi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1103,2026-09-17,Jeudi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
+CMD-1104,2026-09-17,Jeudi,Montre connectée,Électronique,2,25000,Boutique,Dakar,Wave
+CMD-1105,2026-09-18,Vendredi,Sac à main,Mode,2,12500,Boutique,Thiès,Espèces
+CMD-1106,2026-09-18,Vendredi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Carte
+CMD-1107,2026-09-18,Vendredi,T-shirt coton,Mode,2,4000,Web,Thiès,Wave
+CMD-1108,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Dakar,Wave
+CMD-1109,2026-09-18,Vendredi,Clé USB 64 Go,Électronique,2,4500,Boutique,Thiès,Espèces
+CMD-1110,2026-09-18,Vendredi,Savon noir,Beauté,3,1500,Web,Dakar,Orange Money
+CMD-1111,2026-09-18,Vendredi,Power bank 10000 mAh,Électronique,1,9000,Boutique,Dakar,Espèces
+CMD-1112,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Dakar,Wave
+CMD-1113,2026-09-18,Vendredi,Casque Bluetooth,Électronique,2,15000,Web,Dakar,Wave
+CMD-1114,2026-09-18,Vendredi,T-shirt coton,Mode,1,4000,Web,Dakar,Orange Money
+CMD-1115,2026-09-18,Vendredi,Clé USB 64 Go,Électronique,2,4500,Web,Dakar,Orange Money
+CMD-1116,2026-09-18,Vendredi,Boubou brodé,Mode,2,18000,Web,Saint-Louis,Orange Money
+CMD-1117,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Dakar,Carte
+CMD-1118,2026-09-18,Vendredi,Savon noir,Beauté,4,1500,Web,Thiès,Orange Money
+CMD-1119,2026-09-19,Samedi,Sac à main,Mode,1,12500,Boutique,Dakar,Espèces
+CMD-1120,2026-09-19,Samedi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Wave
+CMD-1121,2026-09-19,Samedi,Savon noir,Beauté,3,1500,Web,Saint-Louis,Orange Money
+CMD-1122,2026-09-19,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
+CMD-1123,2026-09-19,Samedi,Savon noir,Beauté,2,1500,Boutique,Dakar,Espèces
+CMD-1124,2026-09-19,Samedi,Parfum 50 ml,Beauté,1,14000,Web,Dakar,Carte
+CMD-1125,2026-09-19,Samedi,Savon noir,Beauté,1,1500,Boutique,Dakar,Espèces
+CMD-1126,2026-09-19,Samedi,Parfum 50 ml,Beauté,2,14000,Web,Dakar,Orange Money
+CMD-1127,2026-09-19,Samedi,Montre connectée,Électronique,1,25000,Boutique,Thiès,Espèces
+CMD-1128,2026-09-19,Samedi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Espèces
+CMD-1129,2026-09-19,Samedi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Orange Money
+CMD-1130,2026-09-19,Samedi,Beurre de karité,Beauté,4,2500,Web,Saint-Louis,Carte
+CMD-1131,2026-09-19,Samedi,Savon noir,Beauté,4,1500,Web,Saint-Louis,Orange Money
+CMD-1132,2026-09-19,Samedi,T-shirt coton,Mode,2,4000,Boutique,Dakar,Orange Money
+CMD-1133,2026-09-19,Samedi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Espèces
+CMD-1134,2026-09-19,Samedi,Montre connectée,Électronique,1,25000,Web,Saint-Louis,Orange Money
+CMD-1135,2026-09-19,Samedi,Savon noir,Beauté,3,1500,Boutique,Dakar,Espèces
+CMD-1136,2026-09-19,Samedi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Espèces
+CMD-1137,2026-09-19,Samedi,Parfum 50 ml,Beauté,4,14000,Boutique,Dakar,Wave
+CMD-1138,2026-09-20,Dimanche,Chargeur rapide,Électronique,2,5000,Web,Dakar,Wave
+CMD-1139,2026-09-20,Dimanche,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Orange Money
+CMD-1140,2026-09-20,Dimanche,Power bank 10000 mAh,Électronique,2,9000,Web,Thiès,Wave
+CMD-1141,2026-09-20,Dimanche,Beurre de karité,Beauté,2,2500,Boutique,Dakar,Wave
+CMD-1142,2026-09-20,Dimanche,Beurre de karité,Beauté,3,2500,Web,Dakar,Wave
+CMD-1143,2026-09-20,Dimanche,Chargeur rapide,Électronique,2,5000,Web,Saint-Louis,Carte
+CMD-1144,2026-09-21,Lundi,Boubou brodé,Mode,2,18000,Boutique,Dakar,Espèces
+CMD-1145,2026-09-21,Lundi,Beurre de karité,Beauté,2,2500,Boutique,Dakar,Orange Money
+CMD-1146,2026-09-21,Lundi,T-shirt coton,Mode,1,4000,Web,Dakar,Orange Money
+CMD-1147,2026-09-21,Lundi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Espèces
+CMD-1148,2026-09-21,Lundi,Ventilateur sur pied,Maison,1,22000,Boutique,Thiès,Orange Money
+CMD-1149,2026-09-21,Lundi,Beurre de karité,Beauté,1,2500,Web,Dakar,Wave
+CMD-1150,2026-09-21,Lundi,T-shirt coton,Mode,1,4000,Web,Dakar,Wave
+CMD-1151,2026-09-22,Mardi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1152,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,2,9000,Web,Thiès,Orange Money
+CMD-1153,2026-09-22,Mardi,Savon noir,Beauté,1,1500,Boutique,Dakar,Wave
+CMD-1154,2026-09-22,Mardi,Casque Bluetooth,Électronique,2,15000,Web,Saint-Louis,Wave
+CMD-1155,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
+CMD-1156,2026-09-22,Mardi,Power bank 10000 mAh,Électronique,1,9000,Boutique,Dakar,Carte
+CMD-1157,2026-09-22,Mardi,Sandales cuir,Mode,1,7500,Boutique,Dakar,Orange Money
+CMD-1158,2026-09-22,Mardi,Casque Bluetooth,Électronique,2,15000,Boutique,Dakar,Wave
+CMD-1159,2026-09-22,Mardi,Montre connectée,Électronique,1,25000,Boutique,Thiès,Carte
+CMD-1160,2026-09-22,Mardi,Parfum 50 ml,Beauté,3,14000,Web,Dakar,Wave
+CMD-1161,2026-09-23,Mercredi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Espèces
+CMD-1162,2026-09-23,Mercredi,Bouilloire électrique,Maison,1,11000,Web,Dakar,Orange Money
+CMD-1163,2026-09-23,Mercredi,Écouteurs sans fil,Électronique,1,12000,Web,Dakar,Orange Money
+CMD-1164,2026-09-23,Mercredi,Crème hydratante,Beauté,3,5500,Boutique,Dakar,Wave
+CMD-1165,2026-09-23,Mercredi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Wave
+CMD-1166,2026-09-23,Mercredi,Chargeur rapide,Électronique,2,5000,Web,Saint-Louis,Orange Money
+CMD-1167,2026-09-23,Mercredi,Chargeur rapide,Électronique,2,5000,Web,Saint-Louis,Wave
+CMD-1168,2026-09-23,Mercredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
+CMD-1169,2026-09-23,Mercredi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Espèces
+CMD-1170,2026-09-23,Mercredi,Power bank 10000 mAh,Électronique,2,9000,Web,Dakar,Wave
+CMD-1171,2026-09-23,Mercredi,Fer à repasser,Maison,1,9500,Web,Dakar,Wave
+CMD-1172,2026-09-23,Mercredi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Carte
+CMD-1173,2026-09-23,Mercredi,Parfum 50 ml,Beauté,3,14000,Web,Saint-Louis,Wave
+CMD-1174,2026-09-24,Jeudi,Écouteurs sans fil,Électronique,1,12000,Boutique,Dakar,Wave
+CMD-1175,2026-09-24,Jeudi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Espèces
+CMD-1176,2026-09-24,Jeudi,Savon noir,Beauté,3,1500,Boutique,Thiès,Espèces
+CMD-1177,2026-09-24,Jeudi,Sandales cuir,Mode,1,7500,Web,Dakar,Wave
+CMD-1178,2026-09-24,Jeudi,Crème hydratante,Beauté,4,5500,Boutique,Dakar,Wave
+CMD-1179,2026-09-24,Jeudi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
+CMD-1180,2026-09-24,Jeudi,Chargeur rapide,Électronique,2,5000,Boutique,Dakar,Espèces
+CMD-1181,2026-09-24,Jeudi,Savon noir,Beauté,3,1500,Web,Dakar,Wave
+CMD-1182,2026-09-24,Jeudi,Bouilloire électrique,Maison,1,11000,Web,Dakar,Orange Money
+CMD-1183,2026-09-24,Jeudi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Orange Money
+CMD-1184,2026-09-24,Jeudi,Écouteurs sans fil,Électronique,1,12000,Web,Saint-Louis,Orange Money
+CMD-1185,2026-09-25,Vendredi,Power bank 10000 mAh,Électronique,2,9000,Boutique,Dakar,Espèces
+CMD-1186,2026-09-25,Vendredi,Sandales cuir,Mode,1,7500,Web,Thiès,Orange Money
+CMD-1187,2026-09-25,Vendredi,Parfum 50 ml,Beauté,1,14000,Boutique,Dakar,Espèces
+CMD-1188,2026-09-25,Vendredi,Crème hydratante,Beauté,2,5500,Web,Dakar,Carte
+CMD-1189,2026-09-25,Vendredi,Montre connectée,Électronique,1,25000,Boutique,Dakar,Wave
+CMD-1190,2026-09-25,Vendredi,Casque Bluetooth,Électronique,2,15000,Web,Dakar,Wave
+CMD-1191,2026-09-25,Vendredi,Crème hydratante,Beauté,1,5500,Web,Dakar,Carte
+CMD-1192,2026-09-25,Vendredi,Sandales cuir,Mode,1,7500,Web,Dakar,Orange Money
+CMD-1193,2026-09-25,Vendredi,T-shirt coton,Mode,2,4000,Web,Saint-Louis,Orange Money
+CMD-1194,2026-09-25,Vendredi,Sandales cuir,Mode,2,7500,Boutique,Dakar,Wave
+CMD-1195,2026-09-25,Vendredi,T-shirt coton,Mode,2,4000,Web,Saint-Louis,Wave
+CMD-1196,2026-09-25,Vendredi,Power bank 10000 mAh,Électronique,2,9000,Web,Saint-Louis,Wave
+CMD-1197,2026-09-25,Vendredi,Montre connectée,Électronique,2,25000,Boutique,Thiès,Espèces
+CMD-1198,2026-09-26,Samedi,Parfum 50 ml,Beauté,4,14000,Web,Saint-Louis,Wave
+CMD-1199,2026-09-26,Samedi,Bouilloire électrique,Maison,1,11000,Boutique,Dakar,Espèces
+CMD-1200,2026-09-26,Samedi,Casque Bluetooth,Électronique,2,15000,Boutique,Dakar,Carte
+CMD-1201,2026-09-26,Samedi,T-shirt coton,Mode,2,4000,Web,Dakar,Wave
+CMD-1202,2026-09-26,Samedi,Savon noir,Beauté,2,1500,Boutique,Thiès,Wave
+CMD-1203,2026-09-26,Samedi,Parfum 50 ml,Beauté,2,14000,Web,Thiès,Wave
+CMD-1204,2026-09-26,Samedi,Casque Bluetooth,Électronique,2,15000,Web,Saint-Louis,Orange Money
+CMD-1205,2026-09-26,Samedi,Montre connectée,Électronique,2,25000,Boutique,Thiès,Wave
+CMD-1206,2026-09-26,Samedi,Écouteurs sans fil,Électronique,2,12000,Web,Dakar,Carte
+CMD-1207,2026-09-26,Samedi,Beurre de karité,Beauté,2,2500,Web,Thiès,Wave
+CMD-1208,2026-09-26,Samedi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Wave
+CMD-1209,2026-09-26,Samedi,Casque Bluetooth,Électronique,2,15000,Boutique,Thiès,Espèces
+CMD-1210,2026-09-26,Samedi,Power bank 10000 mAh,Électronique,2,9000,Web,Saint-Louis,Carte
+CMD-1211,2026-09-26,Samedi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Espèces
+CMD-1212,2026-09-26,Samedi,Savon noir,Beauté,3,1500,Boutique,Thiès,Wave
+CMD-1213,2026-09-26,Samedi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Orange Money
+CMD-1214,2026-09-26,Samedi,Écouteurs sans fil,Électronique,1,12000,Web,Saint-Louis,Orange Money
+CMD-1215,2026-09-26,Samedi,Ventilateur sur pied,Maison,1,22000,Boutique,Thiès,Espèces
+CMD-1216,2026-09-26,Samedi,Sac à main,Mode,2,12500,Web,Saint-Louis,Wave
+CMD-1217,2026-09-26,Samedi,Ventilateur sur pied,Maison,1,22000,Web,Thiès,Wave
+CMD-1218,2026-09-27,Dimanche,Parfum 50 ml,Beauté,1,14000,Boutique,Dakar,Wave
+CMD-1219,2026-09-27,Dimanche,Beurre de karité,Beauté,4,2500,Web,Dakar,Wave
+CMD-1220,2026-09-27,Dimanche,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
+CMD-1221,2026-09-27,Dimanche,Fer à repasser,Maison,1,9500,Web,Dakar,Wave
+CMD-1222,2026-09-28,Lundi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Orange Money
+CMD-1223,2026-09-28,Lundi,Parfum 50 ml,Beauté,3,14000,Boutique,Dakar,Espèces
+CMD-1224,2026-09-28,Lundi,Ventilateur sur pied,Maison,1,22000,Web,Dakar,Wave
+CMD-1225,2026-09-28,Lundi,Ventilateur sur pied,Maison,1,22000,Web,Saint-Louis,Orange Money
+CMD-1226,2026-09-28,Lundi,Power bank 10000 mAh,Électronique,2,9000,Web,Saint-Louis,Orange Money
+CMD-1227,2026-09-28,Lundi,Ventilateur sur pied,Maison,1,22000,Web,Dakar,Wave
+CMD-1228,2026-09-28,Lundi,Sandales cuir,Mode,2,7500,Web,Dakar,Orange Money
+CMD-1229,2026-09-29,Mardi,Boubou brodé,Mode,2,18000,Web,Thiès,Wave
+CMD-1230,2026-09-29,Mardi,Ventilateur sur pied,Maison,1,22000,Web,Saint-Louis,Orange Money
+CMD-1231,2026-09-29,Mardi,Savon noir,Beauté,3,1500,Boutique,Dakar,Wave
+CMD-1232,2026-09-29,Mardi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Orange Money
+CMD-1233,2026-09-29,Mardi,Lampe LED rechargeable,Maison,1,3500,Web,Saint-Louis,Orange Money
+CMD-1234,2026-09-29,Mardi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Espèces
+CMD-1235,2026-09-30,Mercredi,Lampe LED rechargeable,Maison,1,3500,Boutique,Dakar,Wave
+CMD-1236,2026-09-30,Mercredi,T-shirt coton,Mode,2,4000,Web,Saint-Louis,Orange Money
+CMD-1237,2026-09-30,Mercredi,Beurre de karité,Beauté,2,2500,Web,Thiès,Orange Money
+CMD-1238,2026-09-30,Mercredi,Sac à main,Mode,1,12500,Web,Dakar,Orange Money
+CMD-1239,2026-09-30,Mercredi,Clé USB 64 Go,Électronique,2,4500,Boutique,Dakar,Espèces
+CMD-1240,2026-09-30,Mercredi,Beurre de karité,Beauté,4,2500,Boutique,Dakar,Orange Money
+CMD-1241,2026-09-30,Mercredi,Ventilateur sur pied,Maison,1,22000,Web,Dakar,Carte
+CMD-1242,2026-09-30,Mercredi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Wave
+CMD-1243,2026-10-01,Jeudi,Sac à main,Mode,1,12500,Boutique,Dakar,Orange Money
+CMD-1244,2026-10-01,Jeudi,Crème hydratante,Beauté,4,5500,Boutique,Dakar,Espèces
+CMD-1245,2026-10-01,Jeudi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Espèces
+CMD-1246,2026-10-01,Jeudi,Chargeur rapide,Électronique,1,5000,Web,Dakar,Wave
+CMD-1247,2026-10-01,Jeudi,Boubou brodé,Mode,1,18000,Boutique,Dakar,Espèces
+CMD-1248,2026-10-01,Jeudi,T-shirt coton,Mode,1,4000,Web,Dakar,Carte
+CMD-1249,2026-10-01,Jeudi,Lampe LED rechargeable,Maison,1,3500,Web,Thiès,Wave
+CMD-1250,2026-10-02,Vendredi,Écouteurs sans fil,Électronique,2,12000,Web,Dakar,Orange Money
+CMD-1251,2026-10-02,Vendredi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Espèces
+CMD-1252,2026-10-02,Vendredi,Casque Bluetooth,Électronique,1,15000,Boutique,Dakar,Wave
+CMD-1253,2026-10-02,Vendredi,T-shirt coton,Mode,1,4000,Web,Thiès,Wave
+CMD-1254,2026-10-02,Vendredi,Beurre de karité,Beauté,3,2500,Boutique,Dakar,Wave
+CMD-1255,2026-10-02,Vendredi,Chargeur rapide,Électronique,1,5000,Web,Saint-Louis,Wave
+CMD-1256,2026-10-02,Vendredi,Beurre de karité,Beauté,3,2500,Web,Thiès,Wave
+CMD-1257,2026-10-02,Vendredi,Power bank 10000 mAh,Électronique,1,9000,Web,Dakar,Wave
+CMD-1258,2026-10-02,Vendredi,Crème hydratante,Beauté,2,5500,Web,Dakar,Wave
+CMD-1259,2026-10-02,Vendredi,Montre connectée,Électronique,2,25000,Web,Thiès,Wave
+CMD-1260,2026-10-02,Vendredi,Sac à main,Mode,1,12500,Web,Dakar,Orange Money
+CMD-1261,2026-10-02,Vendredi,Chargeur rapide,Électronique,1,5000,Web,Thiès,Wave
+CMD-1262,2026-10-02,Vendredi,Crème hydratante,Beauté,1,5500,Web,Thiès,Wave
+CMD-1263,2026-10-03,Samedi,Crème hydratante,Beauté,2,5500,Boutique,Dakar,Wave
+CMD-1264,2026-10-03,Samedi,Chargeur rapide,Électronique,1,5000,Boutique,Dakar,Espèces
+CMD-1265,2026-10-03,Samedi,Fer à repasser,Maison,1,9500,Web,Dakar,Orange Money
+CMD-1266,2026-10-03,Samedi,Fer à repasser,Maison,1,9500,Boutique,Dakar,Espèces
+CMD-1267,2026-10-03,Samedi,Chargeur rapide,Électronique,1,5000,Web,Saint-Louis,Wave
+CMD-1268,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Web,Thiès,Wave
+CMD-1269,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Web,Dakar,Carte
+CMD-1270,2026-10-03,Samedi,Crème hydratante,Beauté,3,5500,Web,Dakar,Wave
+CMD-1271,2026-10-03,Samedi,Power bank 10000 mAh,Électronique,2,9000,Web,Dakar,Wave
+CMD-1272,2026-10-03,Samedi,Parfum 50 ml,Beauté,3,14000,Boutique,Dakar,Carte
+CMD-1273,2026-10-03,Samedi,Lampe LED rechargeable,Maison,1,3500,Web,Saint-Louis,Wave
+CMD-1274,2026-10-03,Samedi,Casque Bluetooth,Électronique,2,15000,Web,Thiès,Orange Money
+CMD-1275,2026-10-03,Samedi,Bouilloire électrique,Maison,1,11000,Boutique,Dakar,Carte
+CMD-1276,2026-10-03,Samedi,Beurre de karité,Beauté,2,2500,Web,Saint-Louis,Wave
+CMD-1277,2026-10-03,Samedi,Clé USB 64 Go,Électronique,1,4500,Web,Saint-Louis,Orange Money
+CMD-1278,2026-10-03,Samedi,Ventilateur sur pied,Maison,1,22000,Boutique,Dakar,Wave
+CMD-1279,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Web,Dakar,Wave
+CMD-1280,2026-10-03,Samedi,Casque Bluetooth,Électronique,1,15000,Web,Thiès,Orange Money
+CMD-1281,2026-10-03,Samedi,T-shirt coton,Mode,1,4000,Boutique,Dakar,Orange Money
+CMD-1282,2026-10-03,Samedi,Sac à main,Mode,1,12500,Boutique,Dakar,Espèces
+CMD-1283,2026-10-03,Samedi,Crème hydratante,Beauté,3,5500,Web,Dakar,Wave
+CMD-1284,2026-10-03,Samedi,Savon noir,Beauté,3,1500,Boutique,Dakar,Espèces
+CMD-1285,2026-10-04,Dimanche,Ventilateur sur pied,Maison,1,22000,Boutique,Thiès,Espèces
+CMD-1286,2026-10-04,Dimanche,Sac à main,Mode,1,12500,Web,Dakar,Wave
+CMD-1287,2026-10-04,Dimanche,Crème hydratante,Beauté,2,5500,Web,Saint-Louis,Wave
+CMD-1288,2026-10-04,Dimanche,T-shirt coton,Mode,2,4000,Web,Dakar,Wave
+CMD-1289,2026-10-04,Dimanche,Boubou brodé,Mode,2,18000,Web,Thiès,Wave
