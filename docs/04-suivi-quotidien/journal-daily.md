@@ -11,9 +11,12 @@
 | J4 – ven. 09/10 | Ibrahima | Graphique par date, Top 5, filtre par période | Corrections après les tests, préparation du rapport (#56) | Aucun |
 | J4 – ven. 09/10 | Isselmou | Mise en forme du tableau de bord | Trois constats (#67), démonstration (#53) | Aucun |
 | J4 – ven. 09/10 | Ndeye Sokhna | Graphique par catégorie, filtre par catégorie | Tests des stories (#52), US07 si le temps le permet (#66) | Aucun |
+| J5 – sam. 10/10 | Ibrahima | Démo de l'incrément en Sprint Review (visio) | Rapport final (#56), remise (#57) | Aucun |
+| J5 – sam. 10/10 | Isselmou | Sprint Review : toutes les stories acceptées | Compte rendu de la review (#54), rétrospective | Aucun |
+| J5 – sam. 10/10 | Ndeye Sokhna | Sprint Review, relecture de #73 et #74 | Rétrospective (#55) | Aucun |
 
 ## État des obstacles
 
 | Obstacle | Signalé le jour | Responsable | Statut |
 |---|---|---|---|
-| Isselmou n'a pas encore accès au dépôt (invitation à accepter) | J2 | Ndeye Sokhna | Guide envoyé, en cours |
+| Isselmou n'a pas encore accès au dépôt (invitation à accepter) | J2 | Ndeye Sokhna | Résolu le J4 : Isselmou a accès au dépôt et au board |

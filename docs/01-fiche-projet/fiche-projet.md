@@ -19,4 +19,5 @@
 **Techno.** HTML, CSS, JavaScript. Données en CSV.
 
 **Hors périmètre.** Pas de backend, d'API, d'authentification, de base de données ni de déploiement cloud.
-  valide par po isselmou le 09/10/2025
+
+*Validé par le Product Owner, Isselmou Sidi OUMOU, le 09/10/2026.*

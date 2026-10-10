@@ -29,6 +29,5 @@ Total : 27 points. Must : 16, Should : 8, Could : 3.
 | B6 | US06 |
 | B7 | US07 |
 | B8 | US08 |
-Valide par po isselmou le 09/10/2025
 
-
+*Validé par le Product Owner, Isselmou Sidi OUMOU, le 09/10/2026.*
