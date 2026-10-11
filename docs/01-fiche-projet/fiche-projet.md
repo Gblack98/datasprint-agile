@@ -12,9 +12,9 @@
 
 | Rôle | Membre |
 |---|---|
-| Product Owner | Isselmou |
-| Scrum Master | Ndeye Sokhna |
-| Équipe de réalisation | Ibrahima Gabar Diop |
+| Product Owner | Isselmou Sidi OUMOU |
+| Scrum Master | Ndeye Sokhna NOKHO |
+| Équipe de réalisation | Ibrahima Gabar DIOP |
 
 **Techno.** HTML, CSS, JavaScript. Données en CSV.
 

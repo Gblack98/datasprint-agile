@@ -5,9 +5,9 @@ Projet de Gestion de Projets Agiles, M1 Big Data Analytics, UN-CHK. Groupe 1.
 
 | Rôle | Membre | GitHub |
 |---|---|---|
-| Product Owner | Isselmou | [@isselmou85](https://github.com/isselmou85) |
-| Scrum Master | Ndeye Sokhna | [@Nokho11](https://github.com/Nokho11) |
-| Équipe de réalisation | Ibrahima Gabar Diop | [@Gblack98](https://github.com/Gblack98) |
+| Product Owner | Isselmou Sidi OUMOU | [@isselmou85](https://github.com/isselmou85) |
+| Scrum Master | Ndeye Sokhna NOKHO | [@Nokho11](https://github.com/Nokho11) |
+| Équipe de réalisation | Ibrahima Gabar DIOP | [@Gblack98](https://github.com/Gblack98) |
 
 ## Ouvrir le tableau de bord
 
