@@ -76,8 +76,6 @@ button, select, input { font: inherit; color: inherit; }
   padding: var(--g);
 }
 
-/* Bande du haut ------------------------------------------------------ */
-
 .bande {
   background:
     radial-gradient(60rem 18rem at 100% -30%, rgba(244, 185, 66, 0.20), transparent 70%),
@@ -104,8 +102,6 @@ button, select, input { font: inherit; color: inherit; }
 .marque-logo svg { width: 1.6rem; height: 1.6rem; }
 .marque-nom { font-size: 1.15rem; font-weight: 650; letter-spacing: -0.01em; line-height: 1.2; }
 .marque-sous { font-size: 0.84rem; color: var(--bande-texte); }
-
-/* Filtres */
 
 .filtres { display: flex; align-items: center; gap: 0.6rem 1.3rem; flex-wrap: wrap; }
 .filtre { display: flex; align-items: center; gap: 0.55rem; }
@@ -148,8 +144,6 @@ button, select, input { font: inherit; color: inherit; }
 
 .seg button:focus-visible, .choix select:focus-visible, .btn-tableau:focus-visible,
 .btn-fichier:focus-within { outline: 2px solid var(--safran-clair); outline-offset: 2px; }
-
-/* KPI */
 
 .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; }
 
@@ -199,8 +193,6 @@ button, select, input { font: inherit; color: inherit; }
 .delta span { font-weight: 500; color: var(--bande-texte); }
 .delta--haut { color: var(--hausse-clair); }
 .delta--bas { color: var(--baisse-clair); }
-
-/* Grille de cartes --------------------------------------------------- */
 
 .grille {
   position: relative;
@@ -255,8 +247,6 @@ button, select, input { font: inherit; color: inherit; }
 .btn-tableau:hover { background: rgba(26, 27, 51, 0.05); }
 .btn-tableau[aria-pressed="true"] { background: var(--encre); color: var(--carte); border-color: var(--encre); }
 
-/* Carte sombre : ventes par jour */
-
 .carte--jours {
   background:
     radial-gradient(22rem 11rem at 100% 0%, rgba(244, 185, 66, 0.16), transparent 70%),
@@ -268,16 +258,12 @@ button, select, input { font: inherit; color: inherit; }
 .carte--jours .btn-tableau:hover { background: rgba(255, 255, 255, 0.09); }
 .carte--jours .btn-tableau[aria-pressed="true"] { background: var(--papier); color: var(--encre); border-color: var(--papier); }
 
-/* Légendes */
-
 .legende { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; align-items: center; font-size: 0.8rem; color: var(--encre-2); }
 .legende li { display: inline-flex; align-items: center; gap: 0.45rem; }
 .legende i { display: inline-block; width: 1rem; height: 2px; border-radius: 2px; }
 .legende--canal { gap: 0.2rem 1.3rem; margin: 0.1rem 0 0.3rem; }
 .legende--canal i { width: 0.6rem; height: 0.6rem; border-radius: 3px; }
 .legende--canal b { color: var(--encre); font-weight: 650; }
-
-/* Tableaux */
 
 .vue-tableau { overflow: auto; flex: 1; min-height: 0; max-height: 17rem; }
 .vue-tableau table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
@@ -286,8 +272,6 @@ button, select, input { font: inherit; color: inherit; }
 .vue-tableau td.num, .vue-tableau th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .carte--jours .vue-tableau th, .carte--jours .vue-tableau td { border-color: rgba(255, 255, 255, 0.12); color: var(--bande-clair); }
 .carte--jours .vue-tableau th { color: var(--bande-texte); }
-
-/* Constats */
 
 .carte--constats {
   background: linear-gradient(150deg, rgba(244, 185, 66, 0.30), rgba(255, 253, 248, 0.72));
@@ -306,8 +290,6 @@ button, select, input { font: inherit; color: inherit; }
   background: var(--bande); color: var(--safran-clair); font-size: 0.8rem; font-weight: 650;
 }
 .constats strong { font-weight: 650; }
-
-/* États */
 
 .message-vide {
   position: absolute; z-index: 3; left: 50%; top: 0.8rem; transform: translateX(-50%);
@@ -337,7 +319,7 @@ button, select, input { font: inherit; color: inherit; }
 }
 .btn-fichier input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 
-/* Grand écran : tout le tableau de bord tient dans la fenêtre ---------- */
+/* Grand écran : tout le tableau de bord tient dans la fenêtre */
 
 @media (min-width: 1180px) and (min-height: 620px) {
   html { font-size: clamp(13px, min(0.98vw, 1.7vh), 22px); }
@@ -361,7 +343,7 @@ button, select, input { font: inherit; color: inherit; }
   .constats li { font-size: 0.92rem; }
 }
 
-/* Écrans intermédiaires : deux colonnes ---------------------------------- */
+/* Écrans intermédiaires : deux colonnes */
 
 @media (min-width: 700px) and (max-width: 1179px), (min-width: 1180px) and (max-height: 619px) {
   .carte--evolution { grid-column: span 12; }

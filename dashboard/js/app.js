@@ -43,8 +43,6 @@
   };
   const trier = (m) => [...m.entries()].sort((a, b) => b[1] - a[1]);
 
-  // Données ---------------------------------------------------------------
-
   let lignes = [];
   let jMin = 0, jMax = 0, j0 = 0, nbSem = 1;
   const etat = { periode: 0, categorie: 'toutes', canal: 'tous' };
@@ -85,8 +83,6 @@
       (sansCategorie || etat.categorie === 'toutes' || r.categorie === etat.categorie) &&
       (etat.canal === 'tous' || r.canal === etat.canal));
   }
-
-  // Graphiques ------------------------------------------------------------
 
   const graphes = {};
   function graphe(id) {
@@ -189,8 +185,6 @@
     });
   }
 
-  // Indicateurs -----------------------------------------------------------
-
   const kpi = (rows) => {
     const ca = somme(rows, (r) => r.ca);
     return { ca, n: rows.length, q: somme(rows, (r) => r.q), p: rows.length ? ca / rows.length : 0 };
@@ -237,8 +231,6 @@
     delta('d-q', cur.q, prev && prev.q, w);
     delta('d-p', cur.p, prev && prev.p, w);
   }
-
-  // Évolution -------------------------------------------------------------
 
   function dessinerEvolution(w, cur, prev) {
     const jours = [];
@@ -313,8 +305,6 @@
     seriePrec ? [1, 2] : [1]);
   }
 
-  // Jours de la semaine ---------------------------------------------------
-
   function dessinerJours(w, cur) {
     const m = grouper(cur, (r) => jourSemaine(r.j));
     const nb = grouper(cur, (r) => jourSemaine(r.j), () => 1);
@@ -355,8 +345,6 @@
     tableau('t-tab-jours', ['Jour', 'CA (FCFA)', 'Commandes'],
       INIT_JOURS.map((_, i) => [maj(NOMS_JOURS[i]), entier(vals[i]), String(nb.get(i) || 0)]), [1, 2]);
   }
-
-  // Catégories, produits, canal, zone ---------------------------------------
 
   function dessinerCategories(w) {
     const rows = filtrer(w, { sansCategorie: true });
@@ -423,8 +411,6 @@
     ], [2, 3]);
   }
 
-  // Constats --------------------------------------------------------------
-
   function phrase(parts) {
     const li = document.createElement('li');
     for (const p of parts) {
@@ -473,8 +459,6 @@
     ol.append(phrase(['Sur le canal ' + (etat.canal === 'tous' ? 'choisi' : etat.canal) + ', ', { fort: zone[0] }, ' concentre ' + part(zone[1], total) + " % du chiffre d'affaires."]));
   }
 
-  // Filtres ---------------------------------------------------------------
-
   function segmenter(id, options, valeur, quand) {
     const el = $(id);
     el.textContent = '';
@@ -517,8 +501,6 @@
     const canaux = [...new Set(lignes.map((r) => r.canal))].sort((a, b) => (a === 'Boutique' ? -1 : b === 'Boutique' ? 1 : a.localeCompare(b, 'fr')));
     segmenter('f-canal', [{ valeur: 'tous', label: 'Tous' }, ...canaux.map((c) => ({ valeur: c, label: c }))], etat.canal, (v) => { etat.canal = v; rendre(); });
   }
-
-  // Rendu -----------------------------------------------------------------
 
   function rendre() {
     const w = fenetre();
@@ -580,8 +562,6 @@
       if (lignes.length && Math.abs(rem() - remAvant) > 0.3) { remAvant = rem(); rendre(); }
     }, 150);
   });
-
-  // Chargement --------------------------------------------------------------
 
   async function demarrer() {
     try {
